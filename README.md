@@ -18,6 +18,13 @@ I am a Web Development student with a strong technical background thanks to my s
 
 ---
 
+## 🛠️ Languages & Tools  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,postgres,mongodb,git,docker,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode" />
+</p>
+
+---
+
 ## 🧠 Skills
 
 ### 🔹 Technical IT Skills
@@ -47,12 +54,7 @@ I am a Web Development student with a strong technical background thanks to my s
 
 ---
 
-## 🛠️ Languages & Tools  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,postgres,mongodb,git,docker,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode" />
-</p>
 
----
 
 ## 📚 Education
 - 🎓 **Web Application Development (CFGS)** – STUCOM Pelai, Barcelona (2025–Present)  
