@@ -1,99 +1,116 @@
 <h1 align="center">Hi 👋, I'm Ignacio</h1>
-<h3 align="center">Web Development Student Focused on Building Real, Impactful Projects</h3>
+<h3 align="center">Web Development Student & Junior IT Technician</h3>
 
 <p align="center">
-  🚀 Learning & growing every day | 💻 Passionate about clean code & smart design  
+  Passionate about building real projects, solving problems and learning new technologies every day.
 </p>
 
 ---
 
 ## 🚀 About Me
-- 🎓 Web Development student  
-- 🌱 Currently learning **Java**  
-- 🛠️ Building real projects to strengthen my skills  
-- 🔍 Interested in Back-end, Front-end & Cloud Computing  
+I am a Web Development student with a strong technical background thanks to my studies and hands-on experience as a Junior IT Technician. I consider myself a proactive and adaptable person, always ready to face new challenges and learn from them. I am especially interested in real, dynamic projects where I can combine classroom learning with real industry experience.
+
+- 🔧 Background in IT Support, hardware maintenance & systems installation  
+- 💻 Web Development: Java, PHP, HTML, CSS, JavaScript  
+- 🌱 Currently learning **Java** (Hyperskill – 42h course)  
+- 🎯 Interested in Back-end development, cybersecurity & cloud infrastructure  
+- 🤝 Willing to participate in internships and collaborative projects  
 
 ---
 
-## 🌐 Connect with Me  
-<p align="left">
-  <a href="https://www.linkedin.com/in/ignaciobrenas" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="48" />
-  </a>
-</p>
+## 🧠 Skills
+
+### 🔹 Technical IT Skills
+- Computer repair, assembly and maintenance  
+- OS installation & configuration (Windows, Linux, macOS)  
+- Structured cabling & network configuration  
+- Data backup & recovery  
+- User technical support (on-site & remote)  
+- Apple device diagnostics & component replacement  
+
+### 🔹 Web Development & Programming
+- HTML5, CSS3, JavaScript  
+- Java, PHP  
+- Object-Oriented Programming  
+- Database design: conceptual, logical & SQL  
+- Client-server applications  
+- Git & GitHub version control  
+- WordPress development  
+- UX/UI design with Figma  
+- VS Code & development environments  
+
+### 🔹 Soft Skills
+- Leadership, teamwork, organization  
+- Problem solving  
+- Attention to detail  
+- Proactivity  
 
 ---
 
 ## 🛠️ Languages & Tools  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,angular,spring,git,docker,linux,figma,aws,gcp,mysql,mongodb,postgresql,arduino,unity,blender" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,postgres,mongodb,git,docker,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode" />
 </p>
 
 ---
 
-## 📊 GitHub Stats  
+## 📚 Education
+- 🎓 **Web Application Development (CFGS)** – STUCOM Pelai, Barcelona (2025–Present)  
+- 💻 **Microcomputer Systems & Networks (CFGM)** – STUCOM Pelai, Barcelona (2023–2025)  
+- 🏫 **ESO** – IES Los Pedroches (2017–2021)
+
+### 📘 Additional Courses (Cisco & more)
+- Ethical Hacker – 70h  
+- Introduction to Cybersecurity – 6h  
+- Introduction to Data Science – 6h  
+- Java Fundamentals (Hyperskill) – 42h (In progress)
+
+---
+
+## 🧩 Projects
+Here are some of the most relevant technical projects I have worked on:
+
+### 🔹 **Pay-Per-View System**
+- Ubuntu Server, LAMPP stack, WordPress  
+- Access control with card reader  
+- Full web design & configuration  
+
+### 🔹 **Corporate Cybersecurity Infrastructure**
+- Workstations, wired network, Wi-Fi & Linux environment installation  
+
+### 🔹 **Start-Up Full Tech Setup**
+- Windows Server, network configuration  
+- Security policies, access control with Arduino  
+- Web design with WordPress  
+
+### 🔹 **Corporate Network with Internal Services**
+- Active Directory, DNS, DHCP  
+- Security policies, RAID, quotas  
+- Helpdesk setup with Odoo  
+
+### 🔹 **WAN Infrastructure & Advanced Services**
+- pfSense firewall, DMZ segmentation  
+- RAID 5, automated backups, Grafana & Prometheus monitoring  
+- DNS, FTP/SFTP, corporate mail & cloud storage (Nextcloud)  
+
+---
+
+## 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IgnacioBrenas&show_icons=true&theme=tokyonight" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgnacioBrenas&layout=compact&theme=tokyonight" height="150" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=IgnacioBrenas&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgnacioBrenas&layout=compact&theme=tokyonight" />
 </div>
 
 ---
 
-## 🚧 Featured Projects  
-🔹 *Coming soon: Real web apps, Java projects & more!*
+## 📫 Contact
+- 📧 Email: **ignaciobrenas@gmail.com**  
+- 🔗 LinkedIn: [linkedin.com/in/ignaciobrenas](https://www.linkedin.com/in/ignaciobrenas)  
+- 🌍 Location: El Masnou, Barcelona  
 
 ---
 
-## ⭐ Thanks for Visiting!
 <p align="center">
+  <b>Thanks for visiting my profile!</b><br>
   <img src="https://komarev.com/ghpvc/?username=IgnacioBrenas&color=blueviolet" />
-</p>
-## 🧠 Skills
-
-### 🔹 Programming Languages  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java" height="45"/>
-  <img src="https://skillicons.dev/icons?i=js" height="45"/>
-  <img src="https://skillicons.dev/icons?i=python" height="45"/>
-  <img src="https://skillicons.dev/icons?i=php" height="45"/>
-</p>
-
-### 🎨 Frontend Development  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html" height="45"/>
-  <img src="https://skillicons.dev/icons?i=css" height="45"/>
-  <img src="https://skillicons.dev/icons?i=angular" height="45"/>
-  <img src="https://skillicons.dev/icons?i=figma" height="45"/>
-</p>
-
-### ⚙️ Backend & Frameworks  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=spring" height="45"/>
-  <img src="https://skillicons.dev/icons?i=symfony" height="45"/>
-</p>
-
-### 🗄️ Databases  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql" height="45"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" height="45"/>
-  <img src="https://skillicons.dev/icons?i=postgres" height="45"/>
-  <img src="https://skillicons.dev/icons?i=sqlite" height="45"/>
-</p>
-
-### ☁️ Cloud & DevOps  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=aws" height="45"/>
-  <img src="https://skillicons.dev/icons?i=gcp" height="45"/>
-  <img src="https://skillicons.dev/icons?i=docker" height="45"/>
-  <img src="https://skillicons.dev/icons?i=git" height="45"/>
-</p>
-
-### 🧰 Other Tools & Technologies  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=arduino" height="45"/>
-  <img src="https://skillicons.dev/icons?i=linux" height="45"/>
-  <img src="https://skillicons.dev/icons?i=unity" height="45"/>
-  <img src="https://skillicons.dev/icons?i=blender" height="45"/>
-  <img src="https://skillicons.dev/icons?i=ps" height="45"/>
-  <img src="https://skillicons.dev/icons?i=ai" height="45"/>
 </p>
