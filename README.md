@@ -97,8 +97,8 @@ Here are some of the most relevant technical projects I have worked on:
 
 ## 📊 GitHub Stats
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=IgnacioBrenas&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgnacioBrenas&layout=compact&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ignaciobrenas&show_icons=true&theme=tokyonight" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ignaciobrenas&layout=compact&theme=tokyonight" />
 </div>
 
 ---
