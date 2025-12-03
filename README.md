@@ -12,7 +12,7 @@ I am a Web Development student with a strong technical background thanks to my s
 
 - 🔧 Background in IT Support, hardware maintenance & systems installation  
 - 💻 Web Development: Java, PHP, HTML, CSS, JavaScript  
-- 🌱 Currently learning **Java** (Hyperskill – 42h course)  
+- 🌱 Currently learning  **High vocational training in Web Development** & **Java** (Hyperskill – 172h course)  
 - 🎯 Interested in Back-end development, cybersecurity & cloud infrastructure  
 - 🤝 Willing to participate in internships and collaborative projects  
 
@@ -63,7 +63,7 @@ I am a Web Development student with a strong technical background thanks to my s
 - Ethical Hacker – 70h  
 - Introduction to Cybersecurity – 6h  
 - Introduction to Data Science – 6h  
-- Java Fundamentals (Hyperskill) – 42h (In progress)
+- Java Developer (Hyperskill) – 172h (In progress)
 
 ---
 
@@ -92,15 +92,6 @@ Here are some of the most relevant technical projects I have worked on:
 - pfSense firewall, DMZ segmentation  
 - RAID 5, automated backups, Grafana & Prometheus monitoring  
 - DNS, FTP/SFTP, corporate mail & cloud storage (Nextcloud)  
-
----
-
-## 📊 GitHub Stats
-<div align="center">
-  <img height="170" src="https://gh-stats-rust.vercel.app/api?username=ignaciobrenas&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://gh-stats-rust.vercel.app/api/top-langs/?username=ignaciobrenas&layout=compact&theme=tokyonight" />
-</div>
-
 
 ---
 
