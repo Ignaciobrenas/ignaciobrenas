@@ -95,15 +95,6 @@ Here are some of the most relevant technical projects I have worked on:
 
 --
 
-### 🔹 **Github**
--<div align="center">
-  <img src="https://raw.githubusercontent.com/IgnacioBrenas/IgnacioBrenas/main/profile-summary-card-output/tokyonight/0-profile-details.svg" />
-  <img src="https://raw.githubusercontent.com/IgnacioBrenas/IgnacioBrenas/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/IgnacioBrenas/IgnacioBrenas/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" />
-  <img src="https://raw.githubusercontent.com/IgnacioBrenas/IgnacioBrenas/main/profile-summary-card-output/tokyonight/3-stats.svg" />
-</div>
-
-
 ## 📫 Contact
 - 📧 Email: **ignaciobrenas@gmail.com**  
 - 🔗 LinkedIn: [linkedin.com/in/ignaciobrenas](https://www.linkedin.com/in/ignaciobrenas)  
