@@ -18,7 +18,7 @@ I am a Web Development student with a strong technical background thanks to my s
 
 ---
 
-## 🛠️ Languages & Tools  
+## Languages & Tools  
 
 ### Frontend  
 <p align="left">
@@ -60,7 +60,7 @@ I am a Web Development student with a strong technical background thanks to my s
 </p>
 
 
-## 🧠 Skills
+## Skills
 
 ### 🔹 Technical IT Skills
 - Computer repair, assembly and maintenance  
@@ -104,7 +104,7 @@ I am a Web Development student with a strong technical background thanks to my s
 
 ---
 
-## 🧩 Projects
+## Projects
 Here are some of the most relevant technical projects I have worked on:
 
 ### 🔹 **Pay-Per-View System**
@@ -132,10 +132,10 @@ Here are some of the most relevant technical projects I have worked on:
 
 --
 
-## 📫 Contact
-- 📧 Email: **ignaciobrenas@gmail.com**  
-- 🔗 LinkedIn: [linkedin.com/in/ignaciobrenas](https://www.linkedin.com/in/ignaciobrenas)  
-- 🌍 Location: El Masnou, Barcelona  
+## Contact
+- 🔹 Email: **ignaciobrenas@gmail.com**  
+- 🔹 LinkedIn: [linkedin.com/in/ignaciobrenas](https://www.linkedin.com/in/ignaciobrenas)  
+- 🔹 Location: El Masnou, Barcelona  
 
 ---
 
