@@ -20,7 +20,7 @@ I am a Web Development student with a strong technical background thanks to my s
 
 ## 🛠️ Languages & Tools  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,sqlserver,mariadb,git,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode,grafana,docker" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,git,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode,grafana,docker" />
 </p>
 
 ---
