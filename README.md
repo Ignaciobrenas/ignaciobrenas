@@ -91,16 +91,16 @@ I am a Web Development student with a strong technical background thanks to my s
 
 
 
-## 📚 Education
-- 🎓 **Web Application Development (CFGS)** – STUCOM Pelai, Barcelona (2025–Present)  
-- 💻 **Microcomputer Systems & Networks (CFGM)** – STUCOM Pelai, Barcelona (2023–2025)  
-- 🏫 **ESO** – IES Los Pedroches (2017–2021)
+##  Education
+- 🔹 **Web Application Development (CFGS)** – STUCOM Pelai, Barcelona (2025–Present)  
+- 🔹 **Microcomputer Systems & Networks (CFGM)** – STUCOM Pelai, Barcelona (2023–2025)  
+- 🔹 **ESO** – IES Los Pedroches (2017–2021)
 
-### 📘 Additional Courses (Cisco & more)
-- Ethical Hacker – 70h  
-- Introduction to Cybersecurity – 6h  
-- Introduction to Data Science – 6h  
-- Java Developer (Hyperskill) – 172h (In progress)
+### Additional Courses (Cisco & more)
+- 🔹Ethical Hacker – 70h  
+- 🔹Introduction to Cybersecurity – 6h  
+- 🔹Introduction to Data Science – 6h  
+- 🔹Java Developer (Hyperskill) – 172h (In progress)
 
 ---
 
