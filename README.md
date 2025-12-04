@@ -19,11 +19,54 @@ I am a Web Development student with a strong technical background thanks to my s
 ---
 
 ## 🛠️ Languages & Tools  
+
+### Frontend  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,git,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode,grafana,docker" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,angular,figma,wordpress" />
 </p>
 
----
+### Backend  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,php,python,spring,mysql" />
+</p>
+
+### DevOps & Cloud  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,linux,gcp,aws,grafana" />
+</p>
+
+### Sistemas, Virtualización, Infraestructura  
+<p align="left">
+  <!-- VirtualBox -->
+  <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" width="48" height="48"/>
+
+  <!-- VMware -->
+  <img src="https://www.vectorlogo.zone/logos/vmware/vmware-icon.svg" width="48" height="48"/>
+
+  <!-- SQL Server -->
+  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="48" height="48"/>
+
+  <!-- XAMPP -->
+  <img src="https://www.apachefriends.org/images/xampp-logo-ac950edf.svg" width="48" height="48"/>
+
+  <!-- WSL -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Windows_Subsystem_for_Linux_logo.svg" width="48" height="48"/>
+
+  <!-- Ubuntu Server -->
+  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="48" height="48"/>
+
+  <!-- Terminal -->
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="48" height="48"/>
+
+  <!-- NetBeans -->
+  <img src="https://www.vectorlogo.zone/logos/apache_netbeans/apache_netbeans-icon.svg" width="48" height="48"/>
+</p>
+
+### Hardware / Creatividad / Game Dev  
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=arduino,unity,blender,vscode" />
+</p>
+
 
 ## 🧠 Skills
 
