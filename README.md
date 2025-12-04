@@ -10,17 +10,17 @@
 ## **About Me**
 I am a Web Development student with a strong technical background thanks to my studies and hands-on experience as a Junior IT Technician. I consider myself a proactive and adaptable person, always ready to face new challenges and learn from them. I am especially interested in real, dynamic projects where I can combine classroom learning with real industry experience.
 
-- 🔧 Background in IT Support, hardware maintenance & systems installation  
-- 💻 Web Development: Java, PHP, HTML, CSS, JavaScript  
-- 🌱 Currently learning  **High vocational training in Web Development** & **Java** (Hyperskill – 172h course)  
-- 🎯 Interested in Back-end development, cybersecurity & cloud infrastructure  
-- 🤝 Willing to participate in internships and collaborative projects  
+-  Background in IT Support, hardware maintenance & systems installation  
+-  Web Development: Java, PHP, HTML, CSS, JavaScript  
+-  Currently learning  **High vocational training in Web Development** & **Java** (Hyperskill – 172h course)  
+-  Interested in Back-end development, cybersecurity & cloud infrastructure  
+-  Willing to participate in internships and collaborative projects  
 
 ---
 
 ## 🛠️ Languages & Tools  
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,postgres,mongodb,git,docker,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,php,python,spring,angular,mysql,sqlserver,mariadb,git,linux,figma,wordpress,gcp,aws,arduino,unity,blender,vscode,grafana,docker" />
 </p>
 
 ---
