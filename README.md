@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 About Me
+## **About Me**
 I am a Web Development student with a strong technical background thanks to my studies and hands-on experience as a Junior IT Technician. I consider myself a proactive and adaptable person, always ready to face new challenges and learn from them. I am especially interested in real, dynamic projects where I can combine classroom learning with real industry experience.
 
 - 🔧 Background in IT Support, hardware maintenance & systems installation  
