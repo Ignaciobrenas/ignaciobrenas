@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Ignacio BreÑas
+# Hi, I'm Ignacio Breñas
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Web+Development+Student;Junior+IT+Technician;Passionate+About+Technology;Always+Learning" alt="Typing SVG" />
 
