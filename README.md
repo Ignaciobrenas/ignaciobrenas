@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Ignacio Brenas
+# Hi, I'm Ignacio BreÑas
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Web+Development+Student;Junior+IT+Technician;Passionate+About+Technology;Always+Learning" alt="Typing SVG" />
 
@@ -23,7 +23,7 @@ const ignacio = {
     location: "El Masnou, Barcelona",
     education: "Web Application Development",
     currentRole: "Student & Junior IT Technician",
-    learning: ["Java", "Spring Boot", "Cloud Infrastructure"],
+    learning: ["Java", "Angular", "Cloud"],
     interests: ["Backend Development", "Cybersecurity", "DevOps"],
     goal: "Contribute to real projects and keep growing professionally",
     availableFor: "Internships, collaborative projects and new challenges"
@@ -94,7 +94,8 @@ const ignacio = {
 
 ### Web Development
 - HTML5, CSS3, JavaScript
-- Java, PHP, Python
+- Angular
+- Java, PHP, Python ,
 - SQL database design
 - Version control with Git
 - Client-server applications
