@@ -18,19 +18,22 @@
 
 # About Me
 
-![Detective Conan](https://media1.tenor.com/m/1LnewHaxjKUAAAAC/detective-conan-glasses.gif)
+<p align="center">
+  <img src="https://media1.tenor.com/m/1LnewHaxjKUAAAAC/detective-conan-glasses.gif" alt="Detective Conan" width="150">
+</p>
 
-**Location:** El Masnou, Barcelona  
-**Education:** Web Application Development  
-**Current Role:** Student & Junior IT Technician  
+<p align="center">
 
-**Learning:** Java, Angular, Cloud  
-**Interests:** Backend Development, Cybersecurity, DevOps  
+```bash
+Location: El Masnou, Barcelona
+Education: Web Application Development
+Current Role: Student & Junior IT Technician
 
-**Goal:** Contribute to real projects and keep growing professionally  
-**Available for:** Internships, collaborative projects and new challenges
+Learning: Java, SQL, linux, PHP,... 
+Interests: Backend Development, Cybersecurity, DevOps
 
-
+Goal: Contribute to real projects and keep growing professionally
+Available for: Internships, collaborative projects and new challenges
 
 <div align="center">
 
