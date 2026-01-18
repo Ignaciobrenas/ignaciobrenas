@@ -1,3 +1,13 @@
+Perfecto, Ignacio. He revisado tu README y veo varios detalles que necesitan ajustes:
+
+1. Los bloques de código `bash` dentro de `<p align="center">` no se renderizan bien en GitHub. Los `<p>` no pueden envolver ```blocks.
+2. Algunos `<div>` y `<p>` están mezclados de forma que generan cierre incorrecto.
+3. Es mejor centrar el texto de estilo “terminal” usando solo Markdown y HTML combinado correctamente.
+4. Algunos GIFs y secciones tienen ancho muy grande, conviene unificar.
+
+Aquí te dejo una **versión corregida y limpia**:
+
+````markdown
 <div align="center">
 
 # Hi, I'm Ignacio Breñas
@@ -29,11 +39,14 @@ Location: El Masnou, Barcelona
 Education: Web Application Development
 Current Role: Student & Junior IT Technician
 
-Learning: Java, SQL, linux, PHP,... 
+Learning: Java, SQL, Linux, PHP, ...
 Interests: Backend Development, Cybersecurity, DevOps
 
 Goal: Contribute to real projects and keep growing professionally
 Available for: Internships, collaborative projects and new challenges
+````
+
+</p>
 
 <div align="center">
 
@@ -48,21 +61,25 @@ Available for: Internships, collaborative projects and new challenges
 <div align="center">
 
 ### Frontend
+
 <p>
   <img src="https://skillicons.dev/icons?i=html,css,js,angular,figma,wordpress&theme=dark" />
 </p>
 
 ### Backend
+
 <p>
   <img src="https://skillicons.dev/icons?i=java,php,python,spring,mysql&theme=dark" />
 </p>
 
 ### DevOps & Cloud
+
 <p>
   <img src="https://skillicons.dev/icons?i=docker,git,linux,gcp,aws,grafana&theme=dark" />
 </p>
 
 ### Systems & Virtualization
+
 <p>
   <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" width="48" height="48"/>
   <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="48" height="48"/>
@@ -72,6 +89,7 @@ Available for: Internships, collaborative projects and new challenges
 </p>
 
 ### Other Tools
+
 <p>
   <img src="https://skillicons.dev/icons?i=arduino,unity,blender,vscode&theme=dark" />
 </p>
@@ -87,24 +105,26 @@ Available for: Internships, collaborative projects and new challenges
 <td width="50%">
 
 ### IT Technician
-- Computer repair and maintenance
-- OS installation and configuration
-- Network configuration and structured cabling
-- Apple device diagnostics
-- On-site and remote technical support
-- Data backup and recovery
+
+* Computer repair and maintenance
+* OS installation and configuration
+* Network configuration and structured cabling
+* Apple device diagnostics
+* On-site and remote technical support
+* Data backup and recovery
 
 </td>
 <td width="50%">
 
 ### Web Development
-- HTML5, CSS3, JavaScript
-- Angular
-- Java, PHP, Python ,
-- SQL database design
-- Version control with Git
-- Client-server applications
-- UX/UI design with Figma
+
+* HTML5, CSS3, JavaScript
+* Angular
+* Java, PHP, Python
+* SQL database design
+* Version control with Git
+* Client-server applications
+* UX/UI design with Figma
 
 </td>
 </tr>
@@ -132,12 +152,12 @@ Available for: Internships, collaborative projects and new challenges
 
 ### Certifications & Courses
 
-| Course | Duration | Status |
-|-------|----------|--------|
-| Java Developer (Hyperskill) | 172h | In Progress |
-| Ethical Hacker | 70h | Completed |
-| Introduction to Cybersecurity | 6h | Completed |
-| Introduction to Data Science | 6h | Completed |
+| Course                        | Duration | Status      |
+| ----------------------------- | -------- | ----------- |
+| Java Developer (Hyperskill)   | 172h     | In Progress |
+| Ethical Hacker                | 70h      | Completed   |
+| Introduction to Cybersecurity | 6h       | Completed   |
+| Introduction to Data Science  | 6h       | Completed   |
 
 ---
 
@@ -150,6 +170,7 @@ Available for: Internships, collaborative projects and new challenges
 </div>
 
 ### Pay-Per-View System
+
 ```yaml
 Technologies: Ubuntu Server, LAMPP, WordPress
 Features:
@@ -159,6 +180,7 @@ Features:
 ```
 
 ### Corporate Cybersecurity Infrastructure
+
 ```yaml
 Technologies: Linux, Networking
 Features:
@@ -168,6 +190,7 @@ Features:
 ```
 
 ### Corporate Network with Internal Services
+
 ```yaml
 Technologies: Active Directory, DNS, DHCP, Odoo
 Features:
@@ -177,6 +200,7 @@ Features:
 ```
 
 ### WAN Infrastructure & Advanced Services
+
 ```yaml
 Technologies: pfSense, Grafana, Prometheus, Nextcloud
 Features:
@@ -188,15 +212,13 @@ Features:
 
 ---
 
-
-
 ## Connect With Me
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-ignaciobrenas@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ignacio_Brenas-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
-[![GitHub](https://img.shields.io/badge/GitHub-IgnacioBrenas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
+[![Email](https://img.shields.io/badge/Email-ignaciobrenas@gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:ignaciobrenas@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ignacio_Brenas-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
+[![GitHub](https://img.shields.io/badge/GitHub-IgnacioBrenas-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/IgnacioBrenas)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
@@ -217,3 +239,4 @@ Features:
 **Thanks for visiting my profile**
 
 </div>
+```
