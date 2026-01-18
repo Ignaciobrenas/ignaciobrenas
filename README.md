@@ -16,50 +16,20 @@
 
 ---
 
-## About Me
+# About Me
 
-public class AboutMe {
-    private String location;
-    private String education;
-    private String currentRole;
-    private String[] learning;
-    private String[] interests;
-    private String goal;
-    private String availableFor;
-}
-    public AboutMe() {
-        this.location = "El Masnou, Barcelona";
-        this.education = "Web Application Development";
-        this.currentRole = "Student & Junior IT Technician";
-        this.learning = new String[]{"Java", "Angular", "Cloud"};
-        this.interests = new String[]{"Backend Development", "Cybersecurity", "DevOps"};
-        this.goal = "Contribute to real projects and keep growing professionally";
-        this.availableFor = "Internships, collaborative projects and new challenges";
-    }
+![Detective Conan](https://media1.tenor.com/m/1LnewHaxjKUAAAAC/detective-conan-glasses.gif)
 
-    public void showInfo() {
-        System.out.println("Location: " + location);
-        System.out.println("Education: " + education);
-        System.out.println("Current Role: " + currentRole);
-        System.out.print("Learning: ");
-        for(String item : learning) {
-            System.out.print(item + " ");
-        }
-        System.out.println();
-        System.out.print("Interests: ");
-        for(String item : interests) {
-            System.out.print(item + " ");
-        }
-        System.out.println();
-        System.out.println("Goal: " + goal);
-        System.out.println("Available for: " + availableFor);
-    }
+**Location:** El Masnou, Barcelona  
+**Education:** Web Application Development  
+**Current Role:** Student & Junior IT Technician  
 
-    public static void main(String[] args) {
-        AboutMe ignacio = new AboutMe();
-        ignacio.showInfo();
-    }
-}
+**Learning:** Java, Angular, Cloud  
+**Interests:** Backend Development, Cybersecurity, DevOps  
+
+**Goal:** Contribute to real projects and keep growing professionally  
+**Available for:** Internships, collaborative projects and new challenges
+
 
 
 <div align="center">
