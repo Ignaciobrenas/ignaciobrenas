@@ -19,8 +19,6 @@
 ## About Me
 
 public class AboutMe {
-
-    // Atributos
     private String location;
     private String education;
     private String currentRole;
@@ -28,8 +26,7 @@ public class AboutMe {
     private String[] interests;
     private String goal;
     private String availableFor;
-
-    // Constructor
+}
     public AboutMe() {
         this.location = "El Masnou, Barcelona";
         this.education = "Web Application Development";
@@ -40,7 +37,6 @@ public class AboutMe {
         this.availableFor = "Internships, collaborative projects and new challenges";
     }
 
-    // Método para mostrar información
     public void showInfo() {
         System.out.println("Location: " + location);
         System.out.println("Education: " + education);
@@ -59,7 +55,6 @@ public class AboutMe {
         System.out.println("Available for: " + availableFor);
     }
 
-    // Método main para probar
     public static void main(String[] args) {
         AboutMe ignacio = new AboutMe();
         ignacio.showInfo();
