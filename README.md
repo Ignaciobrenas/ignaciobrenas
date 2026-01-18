@@ -31,7 +31,7 @@
 📍 El Masnou, Barcelona
 🎓 Grado Superior en Desarrollo de Aplicaciones Web
 💼 Junior IT Technician
-🔧 Aprendiendo: Java, SQL, Linux, PHP, Spring, Docker...
+🔧 Aprendiendo: Java, SQL, Linux, PHP, AWS, Docker,...
 🎯 Intereses: Backend Development, Cybersecurity, DevOps
 🚀 Objetivo: Contribuir a proyectos reales y crecer profesionalmente
 ```
