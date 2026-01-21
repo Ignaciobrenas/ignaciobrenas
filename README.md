@@ -2,7 +2,7 @@
 
 # Ignacio Breñas
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Softwarer+Developer;Junior+IT+Technician;Backend+Enthusiast;Always+Learning+🚀" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Software+Developer;Junior+IT+Technician;Backend+Enthusiast;Always+Learning+🚀" alt="Typing SVG" />
 
 </div>
 
