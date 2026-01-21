@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Ignacio Breñas
+# Ignacio Breñas
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Junior+IT+Technician;Backend+Enthusiast;Always+Learning+🚀" alt="Typing SVG" />
 
