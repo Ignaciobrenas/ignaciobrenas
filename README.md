@@ -2,15 +2,15 @@
 
 # Ignacio Breñas
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=Software+Developer;Junior+IT+Technician;Backend+Enthusiast;Always+Learning+🚀" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=700&lines=Software+Developer;Junior+IT+Technician;Backend+Enthusiast;Always+Learning+🚀" alt="Typing SVG" />
 
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Student-Web_Development-6366F1?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Barcelona,_ES-EC4899?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Student-Web_Development-047857?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-Barcelona,_ES-059669?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Status-Available_for_Internships-10B981?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Experience-IT+Tech-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Experience-IT+Tech-065F46?style=for-the-badge" />
 </div>
 
 ---
@@ -111,12 +111,12 @@
 
 ### 💪 Habilidades Blandas
 
-![Leadership](https://img.shields.io/badge/Liderazgo-6366F1?style=for-the-badge)
-![Teamwork](https://img.shields.io/badge/Trabajo_en_Equipo-8B5CF6?style=for-the-badge)
-![Problem Solving](https://img.shields.io/badge/Resolución_de_Problemas-A855F7?style=for-the-badge)
-![Proactivity](https://img.shields.io/badge/Proactividad-C084FC?style=for-the-badge)
-![Attention to Detail](https://img.shields.io/badge/Atención_al_Detalle-E9D5FF?style=for-the-badge)
-![Communication](https://img.shields.io/badge/Comunicación-6366F1?style=for-the-badge)
+![Leadership](https://img.shields.io/badge/Liderazgo-047857?style=for-the-badge)
+![Teamwork](https://img.shields.io/badge/Trabajo_en_Equipo-059669?style=for-the-badge)
+![Problem Solving](https://img.shields.io/badge/Resolución_de_Problemas-10B981?style=for-the-badge)
+![Proactivity](https://img.shields.io/badge/Proactividad-34D399?style=for-the-badge)
+![Attention to Detail](https://img.shields.io/badge/Atención_al_Detalle-6EE7B7?style=for-the-badge)
+![Communication](https://img.shields.io/badge/Comunicación-065F46?style=for-the-badge)
 
 </div>
 
@@ -206,7 +206,32 @@ Características:
 ## 📊 Estadísticas GitHub
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=IgnacioBrenas&color=6366F1&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=IgnacioBrenas&color=10B981&style=for-the-badge" alt="Profile views" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IgnacioBrenas&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&icon_color=10B981&border_color=047857"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgnacioBrenas&layout=compact&langs_count=8&theme=dark&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&border_color=047857"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IgnacioBrenas&theme=dark&background=0d1117&ring=10B981&fire=10B981&currStreakLabel=10B981&sideNums=10B981&currStreakNum=10B981&dates=6EE7B7&sideLabels=34D399&border=047857" alt="GitHub Streak Stats" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=IgnacioBrenas&bg_color=0d1117&color=10B981&line=10B981&point=6EE7B7&area=true&hide_border=false&border_color=047857&title_color=10B981&custom_title=Contribution%20Graph" alt="Contribution Graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=IgnacioBrenas&theme=darkhub&no-frame=false&no-bg=false&margin-w=4&column=7&title=MultiLanguage,Commits,PullRequest,Reviews,Repositories,Stars,Followers" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -215,9 +240,9 @@ Características:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/📧_Email-ignaciobrenas@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Ignacio_Brenas-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
-[![GitHub](https://img.shields.io/badge/🐙_GitHub-IgnacioBrenas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
+[![Email](https://img.shields.io/badge/📧_Email-ignaciobrenas@gmail.com-059669?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Ignacio_Brenas-047857?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-IgnacioBrenas-065F46?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
 
 </div>
 
