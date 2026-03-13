@@ -39,42 +39,126 @@
 > **"Construyendo el futuro, una línea de código a la vez"**
 
 ---
-
 ## 🛠️ Tech Stack
 
 <div align="center">
 
-### 🎨 Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,angular,figma,wordpress&theme=dark" />
-</p>
+<style>
+.tech-icons img{
+  margin:6px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.tech-icons img:hover{
+  transform: scale(1.15);
+  box-shadow:0px 6px 15px rgba(0,0,0,0.25);
+}
+.badges img{
+  margin:4px;
+}
+</style>
 
-### ⚙️ Backend
-<p>
-  <img src="https://skillicons.dev/icons?i=java,php,python,spring,mysql&theme=dark" />
-</p>
+---
 
-### 🚀 DevOps & Cloud
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,linux,gcp,aws,grafana&theme=dark" />
-</p>
+## 🎨 Frontend
 
-### 🖥️ Sistemas & Virtualización
-<p>
-  <img src="https://www.vectorlogo.zone/logos/virtualbox/virtualbox-icon.svg" width="48" height="48" alt="VirtualBox"/>
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="48" height="48" alt="SQL Server"/>
-  <img src="https://www.apachefriends.org/images/xampp-logo-ac950edf.svg" width="48" height="48" alt="XAMPP"/>
-  <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="48" height="48" alt="Ubuntu"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="48" height="48" alt="Bash"/>
-</p>
+<div class="tech-icons">
 
-### 🎮 Otras Herramientas
-<p>
-  <img src="https://skillicons.dev/icons?i=arduino,unity,blender,vscode&theme=dark" />
-</p>
+<img src="https://skillicons.dev/icons?i=html,css,js,angular,figma,wordpress&theme=dark&perline=6"/>
 
 </div>
 
+<div class="badges">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"/>
+
+</div>
+
+---
+
+## ⚙️ Backend
+
+<div class="tech-icons">
+
+<img src="https://skillicons.dev/icons?i=java,php,python,spring,mysql&theme=dark&perline=5"/>
+
+</div>
+
+<div class="badges">
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+
+</div>
+
+---
+
+## 🚀 DevOps & Cloud
+
+<div class="tech-icons">
+
+<img src="https://skillicons.dev/icons?i=docker,git,linux,gcp,aws,grafana&theme=dark&perline=6"/>
+
+</div>
+
+<div class="badges">
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+
+</div>
+
+---
+
+## 🖥️ Sistemas & Virtualización
+
+<div class="tech-icons">
+
+<img src="https://skillicons.dev/icons?i=linux,bash&theme=dark&perline=6"/>
+
+</div>
+
+<div class="badges">
+
+<img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
+
+</div>
+
+---
+
+## 🎮 Otras Herramientas
+
+<div class="tech-icons">
+
+<img src="https://skillicons.dev/icons?i=arduino,unity,blender,vscode&theme=dark&perline=4"/>
+
+</div>
+
+<div class="badges">
+
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
+<img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+
+</div>
+
+</div>
 ---
 
 ## 💼 Experiencia & Habilidades
