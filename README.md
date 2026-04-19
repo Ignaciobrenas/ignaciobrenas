@@ -63,7 +63,7 @@
 
 <div class="tech-icons">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,angular,figma,wordpress&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,jquery,angular,figma,wordpress&theme=dark&perline=7"/>
 
 </div>
 
@@ -72,9 +72,22 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/>
 <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
 <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white"/>
+
+</div>
+
+---
+
+## 📄 Marcado & Datos
+
+<div class="badges">
+
+<img src="https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white"/>
+<img src="https://img.shields.io/badge/XPath-005C9C?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/XQuery-2C5F8A?style=for-the-badge&logoColor=white"/>
 
 </div>
 
@@ -104,7 +117,7 @@
 
 <div class="tech-icons">
 
-<img src="https://skillicons.dev/icons?i=docker,git,linux,gcp,aws,grafana&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=docker,git,linux,azure,gcp,aws,grafana&theme=dark&perline=7"/>
 
 </div>
 
@@ -113,6 +126,7 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
@@ -133,6 +147,7 @@
 
 <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
+<img src="https://img.shields.io/badge/HeidiSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white"/>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
@@ -179,7 +194,8 @@
 <td width="48%">
 
 ### 💻 Desarrollo Web
-- 🎨 HTML5, CSS3, JavaScript
+- 🎨 HTML5, CSS3, JavaScript, jQuery
+- 📄 XML, XPath, XQuery
 - 📱 Angular Framework
 - ☕ Java, PHP, Python
 - 🗄️ Diseño de bases de datos SQL
@@ -234,6 +250,18 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900" alt="projects animation">
 </div>
+
+### 🍔 [Run & Eat](https://github.com/Ignaciobrenas/RunAndEat_ProyectoTransaversal_DAW1) — Plataforma de Eventos Gastronómicos Urbanos
+```yaml
+Tecnologías: PHP, MySQL, Apache, HTML5, CSS3, JavaScript
+Características:
+  ✨ Plataforma web para publicación y gestión de eventos gastronómicos
+  ✨ Conecta organizadores de experiencias culinarias con participantes
+  ✨ Eventos: carreras populares, catas de vino, burger runs, rutas de tapas...
+  ✨ Desarrollado íntegramente sin frameworks externos (vanilla PHP + JS)
+  ✨ Proyecto transversal del 1º curso de DAW en STUCOM, Barcelona
+```
+---
 
 ### 🔐 Sistema de Control de Acceso con Pago por Visión
 ```yaml
