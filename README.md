@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ignacio%20Breñas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20Junior%20IT%20Technician%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=750&lines=Backend+Developer+in+training+%F0%9F%93%9A;DevOps+%26+Cloud+Explorer+%E2%98%81%EF%B8%8F;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Available+for+Internships+%F0%9F%8E%AF;Desarrollador+Web+Junior+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=750&lines=Backend+Developer+in+training+%F0%9F%93%9A;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Available+for+Internships+%F0%9F%8E%AF;Desarrollador+Web+Junior+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 ![Status](https://img.shields.io/badge/🟢_Status-Open_to_Internships_%26_Junior_Roles-10B981?style=flat-square)
 ![Location](https://img.shields.io/badge/📍_Location-Barcelona,_Spain-059669?style=flat-square)
-![Experience](https://img.shields.io/badge/🔧_Role-Junior_IT_Technician-047857?style=flat-square)
+![Experience](https://img.shields.io/badge/🔧_Role-Software_Developer_Intern-047857?style=flat-square)
 
 </div>
 
@@ -27,16 +27,16 @@
 <br/>
 
 <a href="#%EF%BF%BD%EF%BF%BD-about-me">
-  <img src="https://img.shields.io/badge/🏴󠁧󠁢󠁥󠁮󠁧󠁿__English__-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="English"/>
+  <img src="https://img.shields.io/badge/EN__English_-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="English"/>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#%EF%BF%BD%EF%BF%BD-sobre-m%C3%AD">
-  <img src="https://img.shields.io/badge/🇪🇸__Español__-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="Español"/>
+  <img src="https://img.shields.io/badge/ES__Español__-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="Español"/>
 </a>
 
 <br/><br/>
 
-| 🏴󠁧󠁢󠁥󠁮󠁧󠁿 [**English version below ↓**](#%EF%BF%BD%EF%BF%BD-about-me) | 🇪🇸 [**Versión en español ↓**](#%EF%BF%BD%EF%BF%BD-sobre-m%C3%AD) |
+| EN [**English version below ↓**](#%EF%BF%BD%EF%BF%BD-about-me)| ES [**Versión en español ↓**](#%EF%BF%BD%EF%BF%BD-sobre-m%C3%AD) |
 |:---:|:---:|
 
 <br/>
