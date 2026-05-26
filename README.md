@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ignacio%20Breñas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20Junior%20IT%20Technician%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
 
@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/ignaciobrenas%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-059669?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
 [![GitHub](https://img.shields.io/badge/GitHub-047857?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
-[![Portfolio](https://img.shields.io/badge/Portfolio-065F46?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-065F46?style=for-the-badge&logo=vercel&logoColor=white)](https://porfoli-gamma.vercel.app)
 
 <br/>
 
@@ -26,17 +26,17 @@
 
 <br/>
 
-<a href="#%EF%BF%BD%EF%BF%BD-about-me">
+<a href="#about-me">
   <img src="https://img.shields.io/badge/EN__English_-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="English"/>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#%EF%BF%BD%EF%BF%BD-sobre-m%C3%AD">
+<a href="#sobre-mi">
   <img src="https://img.shields.io/badge/ES__Español__-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="Español"/>
 </a>
 
 <br/><br/>
 
-| EN [**English version below ↓**](#%EF%BF%BD%EF%BF%BD-about-me)| ES [**Versión en español ↓**](#%EF%BF%BD%EF%BF%BD-sobre-m%C3%AD) |
+| EN [**English version below ↓**](#about-me)| ES [**Versión en español ↓**](#sobre-mi) |
 |:---:|:---:|
 
 <br/>
@@ -303,3 +303,4 @@
 ⭐ *If you like my work, leave a star on my repos! / ¡Si te gusta mi trabajo, deja una estrella en mis repos!* ⭐
 
 </div>
+
