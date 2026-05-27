@@ -1,21 +1,22 @@
-﻿<div align="center">
+<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Ignacio%20Breñas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Software%20Developer%20%7C%20Junior%20IT%20Technician%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ignacio%20Breñas&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full--Stack%20Developer%20%7C%20Computer%20Vision%20%7C%20IT%20Systems%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=750&lines=Backend+Developer+in+training+%F0%9F%93%9A;Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Available+for+Internships+%F0%9F%8E%AF;Desarrollador+Web+Junior+%F0%9F%9A%80" alt="Typing SVG" />
-
-<br/>
-
-[![Email](https://img.shields.io/badge/ignaciobrenas%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-059669?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
-[![GitHub](https://img.shields.io/badge/GitHub-047857?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
-[![Portfolio](https://img.shields.io/badge/Portfolio-065F46?style=for-the-badge&logo=vercel&logoColor=white)](https://porfoli-gamma.vercel.app)
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=800&lines=Full-Stack+Developer+(DAW)+%F0%9F%92%BB;Laravel+11+%26+Vue+3+Enthusiast+%E2%9A%A1;Computer+Vision+%26+Python+Maker+%F0%9F%91%81%EF%B8%8F;IT+Systems+%26+Infrastructure+Background+%F0%9F%94%A7;Open+to+Junior+Roles+%26+Internships+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
-![Status](https://img.shields.io/badge/🟢_Status-Open_to_Internships_%26_Junior_Roles-10B981?style=flat-square)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-porfoli--gamma.vercel.app-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://porfoli-gamma.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Ignacio_Breñas-059669?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
+[![Email](https://img.shields.io/badge/📬_Email-ignaciobrenas%40gmail.com-047857?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-IgnacioBrenas-065F46?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
+
+<br/>
+
+![Status](https://img.shields.io/badge/🟢_Status-Open_to_Junior_Roles_%26_Internships-10B981?style=flat-square)
 ![Location](https://img.shields.io/badge/📍_Location-Barcelona,_Spain-059669?style=flat-square)
-![Experience](https://img.shields.io/badge/🔧_Role-Software_Developer_Intern-047857?style=flat-square)
+![Education](https://img.shields.io/badge/🎓_Education-CFGS_DAW_@_STUCOM-047857?style=flat-square)
+![Specialty](https://img.shields.io/badge/⚡_Focus-Backend,_Web_Platforms_%26_Computer_Vision-065F46?style=flat-square)
 
 </div>
 
@@ -26,17 +27,17 @@
 
 <br/>
 
-<a href="#about-me">
-  <img src="https://img.shields.io/badge/EN__English_-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="English"/>
+<a href="#about-me-en">
+  <img src="https://img.shields.io/badge/🇬🇧_English_Version-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="English"/>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#sobre-mi">
-  <img src="https://img.shields.io/badge/ES__Español__-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="Español"/>
+<a href="#sobre-mi-es">
+  <img src="https://img.shields.io/badge/🇪🇸_Versión_en_Español-10B981?style=for-the-badge&labelColor=065F46&color=10B981" alt="Español"/>
 </a>
 
 <br/><br/>
 
-| EN [**English version below ↓**](#about-me)| ES [**Versión en español ↓**](#sobre-mi) |
+| 🇬🇧 [**Jump to English Section ↓**](#about-me-en) | 🇪🇸 [**Saltar a la Sección en Español ↓**](#sobre-mi-es) |
 |:---:|:---:|
 
 <br/>
@@ -45,71 +46,72 @@
 
 ---
 
+<a id="about-me-en"></a>
+
 ## 🇬🇧 About Me
 
-> **Junior IT Technician and Web Development student** based in Barcelona, Spain. Currently studying a Higher Degree in Web Application Development (DAW) at STUCOM Pelai. Passionate about backend development, cybersecurity, and DevOps. I have hands-on experience with network infrastructure, systems administration, and full-stack web projects. Looking for an **internship or junior position** where I can grow, contribute to real projects, and keep learning.
+> **Full-Stack Developer & IT Systems Specialist** based in **Barcelona, Spain**. Currently completing the Higher National Degree in **Web Application Development (CFGS DAW)** at **STUCOM Pelai**, backed by a prior degree in **Microcomputer Systems & Networks (CFGM SMX)** and solid hands-on experience in enterprise IT support and systems administration.
 
-<br/>
+I combine a rigorous understanding of computer architecture, operating systems, and networking with modern software engineering practices. My development focus spans **full-stack web platforms** (Laravel, Vue 3, PHP, TypeScript), **computer vision applications** (Python, OpenCV, MediaPipe), and **enterprise OOP architecture** (Java, MVC, DAO).
 
-**What I bring to a team:**
-- 🔧 Practical experience in IT support, network config, and systems administration
-- 💻 Full-stack web development skills (PHP, Java, JS, MySQL)
-- 🛡️ Cybersecurity awareness and infrastructure setup experience
-- 📦 Familiarity with Docker, Linux, Git, and cloud platforms (AWS, GCP, Azure)
-- 🤝 Proactive, team-oriented, and fast learner
+### 🚀 What I Bring to an Engineering Team:
+- 💻 **Modern Web Engineering:** Proven ability to build full-stack architectures from scratch (Laravel 11, Vue 3, Tailwind, Next.js 14, RESTful APIs).
+- 👁️ **Creative AI & Vision Tools:** Hands-on experience developing real-time computer vision utilities with MediaPipe and OpenCV.
+- 🔧 **Deep Infrastructure & IT Roots:** Direct experience in hardware maintenance, Linux/Windows administration, structured cabling, Apple diagnostics, and backup systems.
+- 📐 **Clean Architecture & Design Patterns:** Strong mastery of OOP principles, MVC pattern, DAO pattern, and relational database modeling (MySQL).
+- 🤝 **Work Ethic & Mindset:** Proactive problem solver, quick learner, clear communicator, and collaborative team player.
 
 ---
+
+<a id="sobre-mi-es"></a>
 
 ## 🇪🇸 Sobre Mí
 
-> **Técnico informático junior y estudiante de Desarrollo Web** ubicado en Barcelona. Actualmente cursando el Grado Superior en Desarrollo de Aplicaciones Web (DAW) en STUCOM Pelai. Apasionado del backend, la ciberseguridad y el DevOps. Tengo experiencia práctica en infraestructura de redes, administración de sistemas y proyectos web fullstack. Busco una **beca o puesto junior** donde pueda crecer, contribuir a proyectos reales y seguir aprendiendo.
+> **Desarrollador Full-Stack y Especialista en Sistemas IT** afincado en **Barcelona**. Actualmente cursando el Ciclo Formativo de Grado Superior en **Desarrollo de Aplicaciones Web (DAW)** en **STUCOM Pelai**, con base previa en **Sistemas Microinformáticos y Redes (SMR)** y experiencia demostrable en soporte informático a empresas y administración de sistemas.
 
-<br/>
+Combino un conocimiento profundo de hardware, redes e infraestructura con el desarrollo de software moderno. Mi enfoque técnico abarca el desarrollo de **plataformas web completas** (Laravel, Vue 3, PHP, TypeScript), aplicaciones de **visión artificial en tiempo real** (Python, OpenCV, MediaPipe) y **arquitectura orientada a objetos** (Java, MVC, DAO).
 
-**Lo que aporto al equipo:**
-- 🔧 Experiencia práctica en soporte IT, configuración de redes y administración de sistemas
-- 💻 Habilidades de desarrollo web full-stack (PHP, Java, JS, MySQL)
-- 🛡️ Conocimientos de ciberseguridad y montaje de infraestructuras
-- 📦 Familiaridad con Docker, Linux, Git y plataformas cloud (AWS, GCP, Azure)
-- 🤝 Proactivo, orientado al trabajo en equipo y con rápida curva de aprendizaje
+### 🚀 Lo que Aporto al Equipo:
+- 💻 **Desarrollo Web Moderno:** Capacidad contrastada para crear arquitecturas completas (Laravel 11, Vue 3, Tailwind CSS, Next.js 14, APIs REST).
+- 👁️ **Visión por Computador e IA Práctica:** Creación de proyectos funcionales con seguimiento facial y gestual en tiempo real.
+- 🔧 **Base Sólida en Sistemas:** Experiencia en mantenimiento de hardware, administración Linux/Windows, redes estructuradas, diagnóstico Apple y backups.
+- 📐 **Arquitectura Limpia y Patrones de Diseño:** Dominio de principios POO, patrón MVC, patrón DAO y diseño de bases de datos relacionales (MySQL).
+- 🤝 **Actitud y Compromiso:** Proactivo, con capacidad analítica para resolver incidencias complejas y rápida curva de aprendizaje.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Tooling
 
 <div align="center">
 
-### Frontend
-<img src="https://skillicons.dev/icons?i=html,css,js,jquery,angular,figma,wordpress&theme=dark&perline=7"/>
+### 🌐 Web & Frameworks
+<img src="https://skillicons.dev/icons?i=laravel,vue,php,js,ts,react,nextjs,html,css,tailwind&theme=dark&perline=10"/>
 
-### Backend
-<img src="https://skillicons.dev/icons?i=java,php,python,spring,mysql&theme=dark&perline=5"/>
+### ☕ Languages & Backend
+<img src="https://skillicons.dev/icons?i=php,python,java,mysql,postgres,sqlite,bash&theme=dark&perline=7"/>
 
-### DevOps & Cloud
-<img src="https://skillicons.dev/icons?i=docker,git,linux,azure,gcp,aws,grafana&theme=dark&perline=7"/>
+### 👁️ AI, Computer Vision & Libraries
+<img src="https://skillicons.dev/icons?i=opencv,py,figma,postman,vite&theme=dark&perline=5"/>
 
-### Tools & Systems
-<img src="https://skillicons.dev/icons?i=bash,vscode,arduino,unity,blender&theme=dark&perline=5"/>
+### ☁️ DevOps, Infrastructure & Systems
+<img src="https://skillicons.dev/icons?i=git,github,docker,linux,ubuntu,apple,vscode&theme=dark&perline=7"/>
 
 </div>
 
 ---
 
-## 📈 Skill Proficiency / Nivel de Habilidades
+## 📊 Skill Proficiency Matrix
 
 <div align="center">
 
-| Technology | Level / Nivel |
-|:---:|:---:|:---|
-| HTML5 / CSS3 | Advanced / Avanzado |
-| Java | Intermediate / Intermedio |
-| PHP | Intermediate / Intermedio |
-| MySQL / SQL | Intermediate / Intermedio |
-| Linux / Bash | Intermediate / Intermedio |
-| JavaScript | Learning / En aprendizaje |
-| Docker | Basic / Básico |
-| Angular | Basic / Básico |
-| AWS / GCP / Azure | Basic / Básico |
+| Area | Technologies | Core Competencies |
+| :--- | :--- | :--- |
+| **Backend Development** | PHP 8, Laravel 11, Java, Python | RESTful APIs, MVC Architecture, DAO Pattern, Session Security, Authentication |
+| **Frontend Development** | Vue 3, React 18, Next.js 14, Tailwind, JS/TS | Responsive UI/UX, Glassmorphism, Component Architecture, State Management |
+| **Computer Vision & AI** | OpenCV, MediaPipe, PyAutoGUI | Face Mesh Tracking, Iris Gaze Estimation, Contactless Gesture Control |
+| **Databases** | MySQL, MariaDB, SQLite, JDBC | Relational Schema Design, Foreign Keys, Indexing, Transactions, Query Optimization |
+| **IT & Infrastructure** | Linux (Ubuntu), Windows Server, macOS | Hardware Diagnostics, Network Cabling, Cloud Fundamentals (AWS/Azure), Virtualization |
+| **Workflow & DevOps** | Git, GitHub, Docker, Postman, Vite | Feature Branching, Conventional Commits, Containerization, API Testing |
 
 </div>
 
@@ -119,53 +121,104 @@
 
 <div align="center">
 
-<img src="./runandeat.png" alt="Run & Eat Logo" width="180"/>
+### ⚡ [Run & Eat 2.0.0](https://github.com/Ignaciobrenas/RunAndEat-2.0.0)
+**Modern Gastronomic Events & Restaurant Booking Platform**
 
-### 🍔 Run & Eat — Gastro-Urban Events Platform / Plataforma de Eventos Gastronómicos Urbanos
-
-[![Repo](https://img.shields.io/badge/GitHub-View_Project-10B981?style=for-the-badge&logo=github)](https://github.com/Ignaciobrenas/RunAndEat_ProyectoTransaversal_DAW1)
-![PHP](https://img.shields.io/badge/PHP-059669?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-047857?style=flat-square&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JS-10B981?style=flat-square&logo=javascript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-065F46?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-059669?style=flat-square&logo=css3&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-047857?style=flat-square&logo=apache&logoColor=white)
+[![Repo](https://img.shields.io/badge/GitHub-RunAndEat--2.0.0-10B981?style=for-the-badge&logo=github)](https://github.com/Ignaciobrenas/RunAndEat-2.0.0)
+![Laravel 11](https://img.shields.io/badge/Laravel_11-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Vue.js 3](https://img.shields.io/badge/Vue.js_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 </div>
 
-**🏴󠁧󠁢󠁥󠁮󠁧󠁿 EN:** Run & Eat is a web platform specialized in publishing and managing urban gastronomic events. It connects culinary experience organizers with participants looking to discover local gastronomy in an active and social way: fun runs, wine tastings, burger runs, tapas routes, and much more. The project was developed entirely as an academic project for the Web Application Development (DAW) course at Stucom, Barcelona, using standard web technologies without external frameworks.
-
-**🇪🇸 ES:** Run & Eat es una plataforma web especializada en la publicación y gestión de eventos gastronómicos urbanos. Conecta a organizadores de experiencias culinarias con participantes que buscan descubrir la gastronomía local de una forma activa y social: carreras populares, catas de vino, burger runs, rutas de tapas, y mucho más. El proyecto fue desarrollado íntegramente como proyecto académico para el ciclo de Desarrollo de Aplicaciones Web (DAW) en Stucom, Barcelona, utilizando tecnologías web estándar sin frameworks externos.
+- **🇬🇧 EN:** Comprehensive culinary platform connecting food enthusiasts with urban gastronomic pop-ups, wine tastings, burger runs, and table reservations. Features role-based dashboards, interactive event maps, real-time availability, and responsive modern design.
+- **🇪🇸 ES:** Plataforma gastronómica moderna basada en Laravel 11 y Vue 3. Permite descubrir y reservar veladas culinarias, rutas de tapas, burger runs y catas de vino en Barcelona con un sistema completo de reservas y roles de usuario.
 
 ---
-
-## 📚 Education & Certifications / Educación y Certificaciones
 
 <div align="center">
 
-### 🎓 Education / Formación
+### 💀 [Skeleton-Meme](https://github.com/Ignaciobrenas/Skeleton-Meme)
+**Real-Time Computer Vision Doomscrolling Prevention Tool**
 
-| Institution | Degree / Título | Period / Periodo |
-|:---:|:---:|:---:|
-| STUCOM Pelai, Barcelona | CFGS — Web Application Development / Desarrollo de Aplicaciones Web | 2025 – Present |
-| STUCOM Pelai, Barcelona | CFGM — Microcomputer Systems & Networks / Sistemas Microinformáticos y Redes | 2023 – 2025 |
+[![Repo](https://img.shields.io/badge/GitHub-Skeleton--Meme-10B981?style=for-the-badge&logo=github)](https://github.com/Ignaciobrenas/Skeleton-Meme)
+![Python 3](https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe_Face_Mesh-00A67E?style=flat-square&logo=google&logoColor=white)
+![Platform](https://img.shields.io/badge/macOS_%7C_Windows-000000?style=flat-square)
+
+</div>
+
+- **🇬🇧 EN:** Innovative productivity tool that uses webcam iris tracking via **MediaPipe Face Mesh (468 landmarks)**. If the user looks down at their phone for >2 continuous seconds, it triggers the iconic Skyrim Skeleton meme video and HUD alarm to snap focus back.
+- **🇪🇸 ES:** Herramienta de productividad basada en visión por computador. Mediante el ratio de posicionamiento del iris detecta si bajas la mirada al móvil mientras trabajas y dispara una alarma interactiva con el meme de Skyrim Skeleton.
+
+---
+
+<div align="center">
+
+### 🖱️ [AI Virtual Mouse](https://github.com/Ignaciobrenas/Virtual_Mouse)
+**Contactless Gestural Mouse Navigation System with Dark Emerald UI**
+
+[![Repo](https://img.shields.io/badge/GitHub-Virtual__Mouse-10B981?style=for-the-badge&logo=github)](https://github.com/Ignaciobrenas/Virtual_Mouse)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-Emerald_Dark-047857?style=flat-square)
+![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-F7931E?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe_Hands-00A67E?style=flat-square&logo=google&logoColor=white)
+
+</div>
+
+- **🇬🇧 EN:** Professional touchless human-computer interaction system. Controls system cursor, left/right click pinch gestures, dynamic scrolling, two-handed mode, and a "Tony Stark Repulsor" Copilot trigger with an emerald dark minimal UI.
+- **🇪🇸 ES:** Sistema de control gestual del cursor sin contacto. Rastrea 21 puntos clave de la mano para mover el ratón, hacer clics por pellizco, scroll a dos manos y atajos por pose con una interfaz minimalista en CustomTkinter.
+
+---
+
+<div align="center">
+
+### 🥊 [Knockout Zone](https://github.com/Ignaciobrenas/KnockoutZone-Platform) & 🎵 [FindUrMusic](https://github.com/Ignaciobrenas/FindUrMusic-Platform)
+**Full-Stack Dynamic Web Platforms · STUCOM Pelai Capstones**
+
+[![Knockout](https://img.shields.io/badge/🥊_Knockout_Zone-PHP_%2B_MySQL-777BB4?style=flat-square)](https://github.com/Ignaciobrenas/KnockoutZone-Platform)
+&nbsp;&nbsp;
+[![FindUrMusic](https://img.shields.io/badge/🎵_FindUrMusic-PHP_PDO_%2B_CSS-047857?style=flat-square)](https://github.com/Ignaciobrenas/FindUrMusic-Platform)
+&nbsp;&nbsp;
+[![DojoSearch](https://img.shields.io/badge/🥋_DojoSearch-Event_Platform-10B981?style=flat-square)](https://github.com/Ignaciobrenas/DojoSearch-Platform)
+
+</div>
+
+- **🇬🇧 EN:** Server-side web applications built from scratch with pure PHP 8, PDO, relational MySQL schemas, and responsive UI. Featuring fighter cards, concert ticketing, and martial arts seminar reservations.
+- **🇪🇸 ES:** Aplicaciones web completas desarrolladas sin dependencias de frameworks externos durante el 1º curso de DAW en STUCOM Pelai, aplicando buenas prácticas de seguridad, hashing de contraseñas y arquitectura cliente-servidor.
+
+---
+
+## 📚 Education & Certifications
+
+<div align="center">
+
+### 🎓 Formal Education / Formación Académica
+
+| Institution | Degree / Título | Specialization | Period |
+| :--- | :--- | :--- | :---: |
+| **STUCOM Pelai** (Barcelona) | **CFGS** Desarrollo de Aplicaciones Web (DAW) | Web Full-Stack, Java OOP, Databases & Security | 2025 – Present |
+| **STUCOM Pelai** (Barcelona) | **CFGM** Sistemas Microinformáticos y Redes (SMX) | Network Infrastructure, Hardware, Systems Admin | 2023 – 2025 |
 
 <br/>
 
-### 📜 Certifications / Certificaciones
+### 📜 Professional Certifications / Certificaciones
 
-| Course / Curso | Platform | Hours / Horas | Status / Estado |
-|:---:|:---:|:---:|:---:|
-| Java Developer | Hyperskill | 172h | 🔄 In Progress |
-| Ethical Hacker | Cisco | 70h | ✅ Completed |
-| Introduction to Cybersecurity | Cisco / NetAcad | 6h | ✅ Completed |
-| Introduction to Data Science | Cisco / NetAcad | 6h | ✅ Completed |
+| Credential / Certificación | Issuing Organization | Training Hours | Status |
+| :--- | :---: | :---: | :---: |
+| 🛡️ **Ethical Hacker** | Cisco Networking Academy | 70h | ✅ Completed |
+| 🔒 **Introduction to Cybersecurity** | Cisco Networking Academy | 6h | ✅ Completed |
+| 📊 **Introduction to Data Science** | Cisco Networking Academy | 6h | ✅ Completed |
+| ☕ **Java Developer** | JetBrains Hyperskill | 172h | 🔄 In Progress |
 
 </div>
 
 ---
 
-## 💼 Experience / Experiencia
+## 💼 Technical Background & IT Experience
 
 <div align="center">
 
@@ -173,26 +226,22 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🔧 IT Technician / Técnico IT
-- 🖥️ Hardware repair & maintenance / Reparación y mantenimiento
-- 🖨️ OS installation & configuration / Instalación de SSOO
-- 🌐 Network setup & structured cabling / Redes y cableado estructurado
-- 🍎 Apple device diagnostics / Diagnóstico de dispositivos Apple
-- 🛡️ On-site & remote tech support / Soporte presencial y remoto
-- 💾 Backup & data recovery / Backup y recuperación de datos
+### 🔧 Systems & IT Infrastructure
+- 🖥️ **Hardware Assembly & Diagnostics:** Component repair, board-level testing, Apple Mac/iPhone diagnostics.
+- 🖨️ **OS Deployment:** Installation, cloning, and automated setup of Linux (Ubuntu/Debian) and Windows environments.
+- 🌐 **Structured Cabling & Networks:** Router/switch configuration, patch panels, subnetting, DHCP/DNS setup.
+- 💾 **Disaster Recovery:** Automated local & offsite backup routines and disk data recovery.
+- 🛡️ **Tech Support:** On-site enterprise support and remote troubleshooting (SMEs).
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 Web Development / Desarrollo Web
-- 🎨 HTML5, CSS3, JavaScript, jQuery
-- 📄 XML, XPath, XQuery
-- 📱 Angular Framework
-- ☕ Java, PHP, Python
-- 🗄️ SQL database design / Diseño de bases de datos
-- 📦 Git version control / Control de versiones con Git
-- 🔌 Client-server applications / Aplicaciones cliente-servidor
-- 🎭 UX/UI with Figma / Diseño UX/UI con Figma
+### 💻 Software Development
+- ⚡ **Full-Stack Engineering:** Laravel 11, Vue 3, PHP 8, Next.js 14, Tailwind CSS.
+- ☕ **Object-Oriented Architecture:** Java, MVC Pattern, DAO Pattern, JDBC, Abstract Factories.
+- 👁️ **Applied Computer Vision:** Python, OpenCV, MediaPipe Face Mesh & Hand Tracking.
+- 🗄️ **Relational Databases:** MySQL, MariaDB, query optimization, database seeding, XML/XSD schemas.
+- 📦 **DevOps & Tooling:** Git branching workflows, GitHub Actions, Docker containers, Postman.
 
 </td>
 </tr>
@@ -206,32 +255,17 @@
 
 <div align="center">
 
-| Language / Idioma | Level / Nivel | Notes |
-|:---:|:---:|:---:|
-| 🇪🇸 Spanish / Español | Native / Nativo | — |
-| 🏴 Catalan / Català | Native / Nativo | — |
-| 🇬🇧 English / Inglés | B1 Intermediate | Reading & Writing stronger than Speaking |
+| Language / Idioma | Level / Nivel | Proficiency Details |
+| :---: | :---: | :--- |
+| 🇪🇸 **Spanish / Español** | **Native** | Native proficiency / Lengua materna |
+| 🏴 **Catalan / Català** | **Native** | Native proficiency / Llengua materna |
+| 🇬🇧 **English / Inglés** | **B1 Intermediate** | Technical documentation reading, writing, and professional technical discussion |
 
 </div>
 
 ---
 
-## 💪 Soft Skills / Habilidades Blandas
-
-<div align="center">
-
-![Leadership](https://img.shields.io/badge/🏆_Leadership_%2F_Liderazgo-10B981?style=for-the-badge)
-![Teamwork](https://img.shields.io/badge/🤝_Teamwork_%2F_Trabajo_en_Equipo-059669?style=for-the-badge)
-![Problem Solving](https://img.shields.io/badge/🧩_Problem_Solving_%2F_Resolución_de_Problemas-047857?style=for-the-badge)
-![Proactivity](https://img.shields.io/badge/⚡_Proactivity_%2F_Proactividad-065F46?style=for-the-badge)
-![Attention to Detail](https://img.shields.io/badge/🔍_Attention_to_Detail_%2F_Atención_al_Detalle-10B981?style=for-the-badge)
-![Communication](https://img.shields.io/badge/💬_Communication_%2F_Comunicación-059669?style=for-the-badge)
-
-</div>
-
----
-
-## 📊 GitHub Statistics / Estadísticas GitHub
+## 📊 GitHub Analytics & Activity
 
 <div align="center">
 
@@ -240,25 +274,12 @@
 <br/><br/>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=IgnacioBrenas&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&icon_color=10B981&border_color=047857&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"/>
+&nbsp;&nbsp;
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IgnacioBrenas&layout=compact&langs_count=10&theme=dark&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&border_color=047857"/>
 
 <br/><br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=IgnacioBrenas&theme=dark&background=0d1117&ring=10B981&fire=059669&currStreakLabel=10B981&sideNums=10B981&currStreakNum=6EE7B7&dates=6EE7B7&sideLabels=34D399&border=047857&mode=weekly" alt="GitHub Streak Stats" />
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IgnacioBrenas&theme=github_dark"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IgnacioBrenas&theme=github_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IgnacioBrenas&theme=github_dark"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IgnacioBrenas&theme=github_dark"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IgnacioBrenas&theme=github_dark&utcOffset=1"/>
 
 <br/><br/>
 
@@ -272,23 +293,23 @@
 
 ---
 
-## 📬 Contact & Availability / Contacto y Disponibilidad
+## 📬 Contact & Opportunities
 
 <div align="center">
 
-> 🟢 **Currently available for internships and junior roles / Actualmente disponible para becas y puestos junior**
+> 🟢 **Actively seeking Junior Full-Stack Developer roles and Internship Opportunities (Barcelona / Remote)**
 
 <br/>
 
-[![Email](https://img.shields.io/badge/📧_Email-ignaciobrenas%40gmail.com-10B981?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Ignacio_Breñas-059669?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
-[![GitHub](https://img.shields.io/badge/🐙_GitHub-IgnacioBrenas-047857?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IgnacioBrenas)
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-porfoli--gamma.vercel.app-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://porfoli-gamma.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/💼_Connect_on_LinkedIn-Ignacio_Breñas-059669?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignaciobrenas)
+[![Email](https://img.shields.io/badge/📬_Send_Email-ignaciobrenas%40gmail.com-047857?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
 
 <br/>
 
-*Feel free to reach out for internships, collaborations, or just to connect!*
+*Whether you have an internship opportunity, a junior software position, or an exciting project collaboration, feel free to reach out!*
 
-*¡No dudes en contactarme para becas, colaboraciones o simplemente para conectar!*
+*¡No dudes en contactarme para oportunidades de empleo junior, prácticas o colaboraciones en proyectos!*
 
 </div>
 
@@ -298,9 +319,8 @@
 
 <div align="center">
 
-**"Building the future, one line of code at a time / Construyendo el futuro, una línea de código a la vez"** 💻
+**"Building reliable systems and impactful software, one line of code at a time."** 💻🚀
 
-⭐ *If you like my work, leave a star on my repos! / ¡Si te gusta mi trabajo, deja una estrella en mis repos!* ⭐
+⭐ *Feel free to explore my repositories and star your favorites!* ⭐
 
 </div>
-
