@@ -176,19 +176,19 @@ Combino un conocimiento profundo de hardware, redes e infraestructura con el des
 
 <div align="center">
 
-### 🥊 [Knockout Zone](https://github.com/Ignaciobrenas/KnockoutZone-Platform) & 🎵 [FindUrMusic](https://github.com/Ignaciobrenas/FindUrMusic-Platform)
-**Full-Stack Dynamic Web Platforms · STUCOM Pelai Capstones**
+### 🏛️ [Java Enterprise Architecture & Systems](https://github.com/Ignaciobrenas/Java_People)
+**Academic Software Design Patterns (MVC & DAO) · STUCOM Pelai**
 
-[![Knockout](https://img.shields.io/badge/🥊_Knockout_Zone-PHP_%2B_MySQL-777BB4?style=flat-square)](https://github.com/Ignaciobrenas/KnockoutZone-Platform)
+[![Java People](https://img.shields.io/badge/☕_Java_People-MVC_Pattern-007396?style=flat-square)](https://github.com/Ignaciobrenas/Java_People)
 &nbsp;&nbsp;
-[![FindUrMusic](https://img.shields.io/badge/🎵_FindUrMusic-PHP_PDO_%2B_CSS-047857?style=flat-square)](https://github.com/Ignaciobrenas/FindUrMusic-Platform)
+[![CarDealership](https://img.shields.io/badge/🚗_CarDealership-DAO_%2B_MySQL-4479A1?style=flat-square)](https://github.com/Ignaciobrenas/CarDealership-Java-MySQL)
 &nbsp;&nbsp;
-[![DojoSearch](https://img.shields.io/badge/🥋_DojoSearch-Event_Platform-10B981?style=flat-square)](https://github.com/Ignaciobrenas/DojoSearch-Platform)
+[![Java Shop](https://img.shields.io/badge/🏪_Java_Shop-Advanced_OOP-047857?style=flat-square)](https://github.com/Ignaciobrenas/Java-Shop-Management)
 
 </div>
 
-- **🇬🇧 EN:** Server-side web applications built from scratch with pure PHP 8, PDO, relational MySQL schemas, and responsive UI. Featuring fighter cards, concert ticketing, and martial arts seminar reservations.
-- **🇪🇸 ES:** Aplicaciones web completas desarrolladas sin dependencias de frameworks externos durante el 1º curso de DAW en STUCOM Pelai, aplicando buenas prácticas de seguridad, hashing de contraseñas y arquitectura cliente-servidor.
+- **🇬🇧 EN:** Enterprise-style desktop applications demonstrating core software engineering architectures: the **MVC (Model-View-Controller)** pattern with role-based permission filters in `Java_People`, the **DAO (Data Access Object)** pattern with JDBC persistence in `CarDealership-Java-MySQL`, and multi-tier retail domain modeling in `Java-Shop-Management`.
+- **🇪🇸 ES:** Aplicaciones de escritorio desarrolladas en Java que implementan arquitecturas de software empresariales: patrón **MVC** con filtrado de permisos por rol de usuario (`Java_People`), desacoplamiento con patrón **DAO** y persistencia relacional JDBC (`CarDealership-Java-MySQL`) y modelado POO en `Java-Shop-Management`.
 
 ---
 
