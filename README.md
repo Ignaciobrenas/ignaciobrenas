@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ignacio%20Breñas&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full--Stack%20Developer%20%7C%20Computer%20Vision%20%7C%20IT%20Systems%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=800&lines=Full-Stack+Developer+(DAW)+%F0%9F%92%BB;Laravel+11+%26+Vue+3+Enthusiast+%E2%9A%A1;Computer+Vision+%26+Python+Maker+%F0%9F%91%81%EF%B8%8F;IT+Systems+%26+Infrastructure+Background+%F0%9F%94%A7;Open+to+Junior+Roles+%26+Internships+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=800&lines=Full-Stack+Developer+(DAW)+%F0%9F%92%BB;Backend+Enthusiast+%E2%9A%A1;Computer+Vision+%26+Python+Maker+%F0%9F%91%81%EF%B8%8F;IT+Systems+%26+Infrastructure+Background+%F0%9F%94%A7;Open+to+Junior+Roles+%26+Internships+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
@@ -52,7 +52,7 @@
 
 > **Full-Stack Developer & IT Systems Specialist** based in **Barcelona, Spain**. Currently completing the Higher National Degree in **Web Application Development (CFGS DAW)** at **STUCOM Pelai**, backed by a prior degree in **Microcomputer Systems & Networks (CFGM SMX)** and solid hands-on experience in enterprise IT support and systems administration.
 
-I combine a rigorous understanding of computer architecture, operating systems, and networking with modern software engineering practices. My development focus spans **full-stack web platforms** (Laravel, Vue 3, PHP, TypeScript), **computer vision applications** (Python, OpenCV, MediaPipe), and **enterprise OOP architecture** (Java, MVC, DAO).
+I combine a rigorous understanding of computer architecture, operating systems, and networking with modern software engineering practices. My development focus spans **full-stack web platforms** (, Vue 3, PHP, TypeScript), **computer vision applications** (Python, OpenCV, MediaPipe), and **enterprise OOP architecture** (Java, MVC, DAO).
 
 ### 🚀 What I Bring to an Engineering Team:
 - 💻 **Modern Web Engineering:** Proven ability to build full-stack architectures from scratch (Laravel 11, Vue 3, Tailwind, Next.js 14, RESTful APIs).
