@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:2563eb&height=220&section=header&text=Ignacio%20Breñas&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=36&desc=TypeScript%20%26%20Software%20Developer%20Intern%20%7C%20DAW%20Student%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ignacio%20Breñas&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=TypeScript%20%7C%20Software%20Developer%20Intern%20%7C%20Barcelona&descAlignY=58&descSize=16"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1000&color=60A5FA&center=true&vCenter=true&width=800&lines=TypeScript+%26+Node.js+Developer+%F0%9F%9A%80;Software+Developer+Intern+%40+Soterguard+%F0%9F%8F%A2;Desarrollo+Full-Stack+%26+Soluciones+On-Premise+%E2%9A%A1;PostgreSQL+%2B+PrismaORM+%2B+APIs+RESTful+%F0%9F%97%84%EF%B8%8F;Docker+%7C+Contenedores+LXC+%7C+SysAdmin+Linux+%F0%9F%90%A7;Anal%C3%ADtica+de+Datos+(Pandas+%2B+Power+BI)+%26+IA+%F0%9F%93%8A" alt="Typing SVG" />
 
@@ -354,7 +354,7 @@ Conjunto de aplicaciones de escritorio en Java aplicando patrones de diseño de 
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:2563eb&height=120&section=footer&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
 
 **"Construyendo software sólido e infraestructuras fiables, línea a línea."** 💻🚀
 
