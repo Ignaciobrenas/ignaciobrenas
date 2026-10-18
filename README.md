@@ -3,28 +3,38 @@
 <!-- Hero Banner -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=230&section=header&text=Ignacio%20Breñas%20Muñoz&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Desarrollador%20de%20Software%20%7C%20Barcelona%20%7C%20Full%20Stack%20Dev%20Intern%20@%20Soterguard&descAlignY=60&descSize=16"/>
 
-<!-- Interactive Typing Tagline -->
+<br/><br/>
+
+<!-- Brand Logo & 32-Bit Pixel Art Avatar -->
 <a href="https://ignaciobrenas.vercel.app">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=850&lines=Desarrollador+de+Software+en+Barcelona+%F0%9F%9A%80;Full+Stack+Developer+Intern+%40+Soterguard+%F0%9F%9B%A1%EF%B8%8F;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests+%E2%9A%A1;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA+%F0%9F%A4%96;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias+%F0%9F%97%84%EF%B8%8F;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n+%F0%9F%90%A7;Open+to+Work+%7C+Disponibilidad+Inmediata+%F0%9F%92%BC" alt="Typing SVG" />
+  <img src="assets/logo.png" width="95" alt="Ignacio Breñas Logo" style="vertical-align: middle; margin-right: 22px;" />
+  <img src="assets/sprites/ignacio_wave.svg" width="112" alt="Ignacio Breñas 32-Bit Avatar" style="vertical-align: middle;" />
 </a>
-
-<br/>
-
-<!-- Core Action Badges -->
-<a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio_Oficial-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Web"/></a>
-<a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/💼_LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/🛡️_Credly-4_Insignias_Verificadas-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
-<a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/📬_Gmail-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://ignaciobrenas.vercel.app/CV_IgnacioBreñasMuñoz.pdf"><img src="https://img.shields.io/badge/📄_Descargar_CV-PDF_Oficial-38bdf8?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="CV"/></a>
 
 <br/><br/>
 
-<!-- Identity Chips -->
-![Puesto](https://img.shields.io/badge/💼_Puesto-Full_Stack_Dev_Intern_@_Soterguard-10b981?style=flat-square)
-![Formación](https://img.shields.io/badge/🎓_Formación-DAW_(2º_Año)_@_STUCOM_Pelai-0284c7?style=flat-square)
-![Ubicación](https://img.shields.io/badge/📍_Ubicación-Barcelona,_España_(Híbrido_/_Remoto)-6366f1?style=flat-square)
-![Disponibilidad](https://img.shields.io/badge/🟢_Disponibilidad-Inmediata_·_Open_to_Work-10b981?style=flat-square)
-![Idiomas](https://img.shields.io/badge/🌍_Idiomas-Castellano_·_English_·_Català-059669?style=flat-square)
+<!-- Interactive Typing Tagline without unicode emojis -->
+<a href="https://ignaciobrenas.vercel.app">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=860&lines=Desarrollador+de+Software+en+Barcelona;Full+Stack+Developer+Intern+%40+Soterguard;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n;Open+to+Work+%7C+Disponibilidad+Inmediata" alt="Typing SVG" />
+</a>
+
+<br/><br/>
+
+<!-- Core Action Badges using clean SimpleIcons -->
+<a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_Oficial-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Web"/></a>
+<a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-4_Insignias_Oficiales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
+<a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Gmail-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://ignaciobrenas.vercel.app/CV_IgnacioBreñasMuñoz.pdf"><img src="https://img.shields.io/badge/Curriculum_Vitae-PDF_Oficial-38bdf8?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="CV"/></a>
+
+<br/><br/>
+
+<!-- Identity Chips using clean tags -->
+<a href="https://soterguard.com"><img src="https://img.shields.io/badge/Puesto-Full_Stack_Dev_Intern_@_Soterguard-10b981?style=flat-square&logo=shield&logoColor=white" alt="Puesto"/></a>
+<img src="https://img.shields.io/badge/Formacion-DAW_(2º_Año)_@_STUCOM_Pelai-0284c7?style=flat-square&logo=gitbook&logoColor=white" alt="Formacion"/>
+<img src="https://img.shields.io/badge/Ubicacion-Barcelona,_España_(Híbrido_/_Remoto)-6366f1?style=flat-square&logo=google-maps&logoColor=white" alt="Ubicacion"/>
+<img src="https://img.shields.io/badge/Disponibilidad-Inmediata_·_Open_to_Work-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="Disponibilidad"/>
+<img src="https://img.shields.io/badge/Idiomas-Castellano_·_English_·_Català-059669?style=flat-square&logo=translate&logoColor=white" alt="Idiomas"/>
 
 </div>
 
@@ -33,31 +43,35 @@
 <!-- LANGUAGE ANCHOR BAR -->
 <div align="center">
 
-| 🇪🇸 [**Versión en Español ↓**](#-sobre-mí) | 🇬🇧 [**English Version ↓**](#-about-me) |
+| <img src="https://api.iconify.design/lucide:languages.svg?color=%2310b981" width="16" style="vertical-align: -2px;" /> [**Versión en Español ↓**](#sobre-mí) | <img src="https://api.iconify.design/lucide:languages.svg?color=%2338bdf8" width="16" style="vertical-align: -2px;" /> [**English Version ↓**](#about-me) |
 |:---:|:---:|
 
 </div>
 
 ---
 
-## 🇪🇸 Sobre Mí
+<a id="sobre-mí"></a>
 
-> **Desarrollador de Software en Barcelona.** Con un perfil **curioso, proactivo y resolutivo**, enfoco mi trabajo en crear software sólido, fiable y de alto impacto. Me apasiona transformar problemas complejos en soluciones claras, aprender continuamente y aportar valor en cada proyecto.
+## <img src="https://api.iconify.design/lucide:user-check.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Sobre Mí
+
+> **Desarrollador de Software en Barcelona.** Con un perfil curioso, proactivo y resolutivo, enfoco mi trabajo en crear software sólido, fiable y de alto impacto. Me apasiona transformar problemas complejos en soluciones claras, aprender continuamente y aportar valor en cada proyecto.
 
 Cuento con un perfil versátil que me permite aportar en el **desarrollo web full stack**, la **gestión y analítica de datos** y el **despliegue de infraestructuras virtualizadas**. Actualmente curso el 2º año del **CFGS en Desarrollo de Aplicaciones Web (DAW)** en STUCOM Pelai —tras graduarme en el **CFGM de Sistemas Microinformáticos y Redes (SMR)**— y me desempeño como **Software Developer Intern en Soterguard**.
 
 En **Soterguard** participo en todas las etapas del ciclo de vida de aplicaciones **On-Premise** empresariales, además de trabajar en **Stoam**, automatizaciones avanzadas con **n8n**, e integraciones complejas con ERPs como **Sage, A3ERP y Odoo**, resolviendo incidencias críticas para PYMEs bajo metodologías **Agile / Kanban** y atención directa a clientes para comprender sus necesidades técnicas.
 
-### 🎯 Pilares Técnicos Principales:
-- 🚀 **Desarrollo Full Stack & Tipado Estricto:** Código limpio en **TypeScript** (cero `any`), **Node.js**, **React**, **Tailwind CSS** y **Python**.
-- 🗄️ **Bases de Datos & Persistencia:** Modelado conceptual y relacional optimizado en **PostgreSQL**, **PrismaORM**, SQL, MySQL y SQLite.
-- 🤖 **Integración de IA & Protocolo MCP:** Creación de herramientas deterministas y servidores **Model Context Protocol (MCP)** para agentes inteligentes de IA.
-- 🐳 **Virtualización, Automatización & DevOps:** Entornos contenerizados en **Docker**, contenedores **LXC**, flujos automatizados en **n8n**, Linux y metodologías CI/CD.
-- 🧪 **Testing & Calidad de Código:** Suites completas con tests automatizados (Vitest, Playwright), arquitectura modular y despliegue continuo.
+### <img src="https://api.iconify.design/lucide:check-circle-2.svg?color=%2310b981" width="20" style="vertical-align: -3px;" /> Pilares Técnicos Principales:
+- **Desarrollo Full Stack & Tipado Estricto:** Código limpio en **TypeScript** (cero `any`), **Node.js**, **React**, **Tailwind CSS** y **Python**.
+- **Bases de Datos & Persistencia:** Modelado conceptual y relacional optimizado en **PostgreSQL**, **PrismaORM**, SQL, MySQL y SQLite.
+- **Integración de IA & Protocolo MCP:** Creación de herramientas deterministas y servidores **Model Context Protocol (MCP)** para agentes autónomos de IA.
+- **Virtualización, Automatización & DevOps:** Entornos contenerizados en **Docker**, contenedores **LXC**, flujos automatizados en **n8n**, Linux y metodologías CI/CD.
+- **Testing & Calidad de Código:** Suites completas con tests automatizados (Vitest, Playwright), arquitectura modular y despliegue continuo.
 
 ---
 
-## 🇬🇧 About Me
+<a id="about-me"></a>
+
+## <img src="https://api.iconify.design/lucide:user-check.svg?color=%2338bdf8" width="24" style="vertical-align: -4px;" /> About Me
 
 > **Software Developer based in Barcelona, Spain.** Curious, proactive, and solution-driven, I craft robust, reliable, and high-impact digital solutions. I am passionate about turning complex technical requirements into intuitive systems, continuously learning, and delivering genuine value in every project.
 
@@ -67,31 +81,38 @@ At **Soterguard**, I contribute across all stages of enterprise **On-Premise app
 
 ---
 
-## 💼 Experiencia Profesional / Work Experience
+## <img src="https://api.iconify.design/lucide:briefcase.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Experiencia Profesional / Work Experience
 
 <table>
 <tr>
 <td width="65%" valign="top">
 
-### 🛡️ **Full Stack Developer Intern** | **[Soterguard](https://soterguard.com/)**
+### <img src="https://api.iconify.design/lucide:shield-check.svg?color=%2310b981" width="18" style="vertical-align: -2px;" /> **Full Stack Developer Intern** | **[Soterguard](https://soterguard.com/)**
 *Mayo 2026 – Actualidad · Barcelona / Híbrido*
 
-- 🌐 Participación integral en todas las fases de desarrollo y despliegue de **aplicaciones On-Premise** empresariales.
-- ⚙️ Desarrollo en **Stoam**, **TypeScript**, **Node.js**, **React**, **Tailwind CSS** y **Python**.
-- 🔄 Orquestación de flujos y pipelines de automatización de procesos mediante **n8n**.
-- 🔗 Integraciones complejas con sistemas de gestión empresarial y ERPs: **Sage**, **A3ERP** y **Odoo**.
-- 👥 Metodología **Agile** (tableros Kanban), iteraciones continuas y soporte directo con clientes para resolver incidencias técnicas y levantar requerimientos.
+- Participación integral en todas las fases de desarrollo y despliegue de **aplicaciones On-Premise** empresariales.
+- Desarrollo en **Stoam**, **TypeScript**, **Node.js**, **React**, **Tailwind CSS** y **Python**.
+- Orquestación de flujos y pipelines de automatización de procesos mediante **n8n**.
+- Integraciones complejas con sistemas de gestión empresarial y ERPs: **Sage**, **A3ERP** y **Odoo**.
+- Metodología **Agile** (tableros Kanban), iteraciones continuas y soporte directo con clientes para resolver incidencias técnicas y levantar requerimientos.
 
 </td>
-<td width="35%" valign="top">
+<td width="35%" align="center" valign="middle">
 
-**Core Stack:**
-- `TypeScript` · `Node.js`
-- `React` · `Tailwind CSS`
-- `Python` · `PostgreSQL`
-- `n8n` · `Docker / LXC`
-- `Integraciones Sage / A3 / Odoo`
-- `Agile Kanban`
+<a href="https://ignaciobrenas.vercel.app#experience">
+  <img src="assets/sprites/ignacio_soterguard_confident.svg" width="135" alt="Ignacio Soterguard 32-Bit Sprite" />
+</a>
+<br/>
+<sub><b style="color: #10b981;">Full Stack Dev @ Soterguard</b></sub>
+<br/><br/>
+<div align="left">
+  <code>TypeScript</code> · <code>Node.js</code><br/>
+  <code>React</code> · <code>Tailwind CSS</code><br/>
+  <code>Python</code> · <code>PostgreSQL</code><br/>
+  <code>n8n</code> · <code>Docker / LXC</code><br/>
+  <code>Sage / A3ERP / Odoo</code><br/>
+  <code>Agile Kanban</code>
+</div>
 
 </td>
 </tr>
@@ -99,12 +120,12 @@ At **Soterguard**, I contribute across all stages of enterprise **On-Premise app
 <tr>
 <td width="65%" valign="top">
 
-### 🍏 **Técnico Informático en Prácticas** | **VimTech**
+### <img src="https://api.iconify.design/lucide:wrench.svg?color=%2310b981" width="18" style="vertical-align: -2px;" /> **Técnico Informático en Prácticas** | **VimTech**
 *Septiembre 2024 – Marzo 2025 · El Masnou, Barcelona*
 
-- 🔬 Diagnóstico, reparación de hardware y microelectrónica con alta especialización en **dispositivos Apple** (Mac, iPhone, iPad).
-- 💿 Despliegue y configuración de sistemas operativos macOS, Windows y distribuciones Linux.
-- 🤝 Soporte técnico resolutivo presencial para particulares y PYMEs.
+- Diagnóstico, reparación de hardware y microelectrónica con alta especialización en **dispositivos Apple** (Mac, iPhone, iPad).
+- Despliegue y configuración de sistemas operativos macOS, Windows y distribuciones Linux.
+- Soporte técnico resolutivo presencial para particulares y PYMEs.
 
 </td>
 <td width="35%" valign="top">
@@ -120,11 +141,11 @@ At **Soterguard**, I contribute across all stages of enterprise **On-Premise app
 <tr>
 <td width="65%" valign="top">
 
-### 🤝 **Soporte TI & Desarrollo Web (Voluntariado)** | **AJMA El Masnou**
+### <img src="https://api.iconify.design/lucide:heart-handshake.svg?color=%2310b981" width="18" style="vertical-align: -2px;" /> **Soporte TI & Desarrollo Web (Voluntariado)** | **AJMA El Masnou**
 *Marzo 2023 – Agosto 2025 · El Masnou, Barcelona*
 
-- 🌍 Diseño, desarrollo y mantenimiento continuo del portal web oficial de la asociación.
-- 🎙️ Asistencia técnica audiovisual (cámara, sonido y mesas de control) y mantenimiento preventivo de equipos.
+- Diseño, desarrollo y mantenimiento continuo del portal web oficial de la asociación.
+- Asistencia técnica audiovisual (cámara, sonido y mesas de control) y mantenimiento preventivo de equipos.
 
 </td>
 <td width="35%" valign="top">
@@ -140,13 +161,13 @@ At **Soterguard**, I contribute across all stages of enterprise **On-Premise app
 
 ---
 
-## 🚀 Proyectos Destacados / Featured Projects
+## <img src="https://api.iconify.design/lucide:code-2.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Proyectos Destacados / Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚡ **[DAMA-CRM — SaaS & ERP Modular](https://github.com/Ignaciobrenas/DAMA-CRM)**
+### **[DAMA-CRM — SaaS & ERP Modular](https://github.com/Ignaciobrenas/DAMA-CRM)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/DAMA-CRM">
     <img src="https://img.shields.io/badge/Ver_Repositorio-10b981?style=for-the-badge&logo=github&logoColor=white" alt="DAMA-CRM"/>
@@ -160,7 +181,7 @@ CRM y ERP modular self-hosted para PYMEs con aislamiento multi-tenant real.
 </td>
 <td width="50%" valign="top">
 
-### 🎨 **[Canva Connector — Servidor MCP para IA](https://github.com/Ignaciobrenas/canva-connector)**
+### **[Canva Connector — Servidor MCP para IA](https://github.com/Ignaciobrenas/canva-connector)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/canva-connector">
     <img src="https://img.shields.io/badge/Ver_Repositorio-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Canva MCP"/>
@@ -177,7 +198,7 @@ Servidor oficial bajo el protocolo **Model Context Protocol (MCP)** para dotar a
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ **[Argus-Fraud — Detección de Fraude en Tiempo Real](https://github.com/Ignaciobrenas/Argus-Fraud)**
+### **[Argus-Fraud — Detección de Fraude en Tiempo Real](https://github.com/Ignaciobrenas/Argus-Fraud)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/Argus-Fraud">
     <img src="https://img.shields.io/badge/Ver_Repositorio-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Argus Fraud"/>
@@ -191,7 +212,7 @@ Pipeline distribuido de Machine Learning y procesamiento masivo de transacciones
 </td>
 <td width="50%" valign="top">
 
-### 🍔 **[Run & Eat 2.0.0 — Plataforma Gastronómica](https://github.com/Ignaciobrenas/RunAndEat-2.0.0)**
+### **[Run & Eat 2.0.0 — Plataforma Gastronómica](https://github.com/Ignaciobrenas/RunAndEat-2.0.0)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/RunAndEat-2.0.0">
     <img src="https://img.shields.io/badge/Ver_Repositorio-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Run & Eat"/>
@@ -208,7 +229,7 @@ Plataforma interactiva para descubrir y reservar veladas gastronómicas y rutas 
 <tr>
 <td width="50%" valign="top">
 
-### 💀 **[Skeleton-Meme — Visión Artificial Anti-Procrastinación](https://github.com/Ignaciobrenas/Skeleton-Meme)**
+### **[Skeleton-Meme — Visión Artificial Anti-Procrastinación](https://github.com/Ignaciobrenas/Skeleton-Meme)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/Skeleton-Meme">
     <img src="https://img.shields.io/badge/Ver_Repositorio-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Skeleton Meme"/>
@@ -222,7 +243,7 @@ Herramienta de productividad visual que detecta cuando el desarrollador desvía 
 </td>
 <td width="50%" valign="top">
 
-### 💻 **[Lugia Terminal Setup — Dev Environment](https://github.com/Ignaciobrenas/lugia-terminal-setup)**
+### **[Lugia Terminal Setup — Dev Environment](https://github.com/Ignaciobrenas/lugia-terminal-setup)**
 <div align="center">
   <a href="https://github.com/Ignaciobrenas/lugia-terminal-setup">
     <img src="https://img.shields.io/badge/Ver_Repositorio-38bdf8?style=for-the-badge&logo=github&logoColor=white" alt="Lugia Terminal"/>
@@ -238,31 +259,31 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 </table>
 
 <div align="center">
-  🌟 <em>Explora más de 30 repositorios públicos en mi perfil: <strong><a href="https://github.com/Ignaciobrenas?tab=repositories">github.com/Ignaciobrenas/repositories</a></strong></em>
+  <em>Explora más de 30 repositorios públicos en mi perfil: <strong><a href="https://github.com/Ignaciobrenas?tab=repositories">github.com/Ignaciobrenas/repositories</a></strong></em>
 </div>
 
 ---
 
-## 🛠️ Stack Tecnológico
+## <img src="https://api.iconify.design/lucide:layers.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Stack Tecnológico
 
 <div align="center">
 
-### ⚡ Lenguajes & Runtimes
+### Lenguajes & Runtimes
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=ts,nodejs,js,python,java,bash&theme=dark" alt="Lenguajes de Programación"/>
 </a>
 
-### 🌐 Frontend & Ecosistema Web
+### Frontend & Ecosistema Web
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=react,astro,tailwind,vite,html,css,wordpress&theme=dark" alt="Frontend"/>
 </a>
 
-### 🗄️ Bases de Datos, ORMs & Servicios
+### Bases de Datos, ORMs & Servicios
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=postgres,prisma,mysql,sqlite,postman&theme=dark" alt="Bases de Datos"/>
 </a>
 
-### 🐳 Virtualización, Infraestructura & DevOps
+### Virtualización, Infraestructura & DevOps
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=docker,linux,ubuntu,apple,git,github,vscode&theme=dark" alt="DevOps y Sistemas"/>
 </a>
@@ -271,42 +292,42 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 
 ---
 
-## 📜 Certificaciones Verificadas en Credly
+## <img src="https://api.iconify.design/lucide:award.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Certificaciones Oficiales Verificadas en Credly
 
 <div align="center">
 
 | Insignia | Entidad Emisora | Verificación Oficial |
 | :--- | :---: | :---: |
-| 🛡️ **Cisco Ethical Hacker** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
-| ⚡ **IBM Agile Explorer** | IBM SkillsBuild | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
-| 🔒 **Cisco Introduction to Cybersecurity** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
-| 📊 **Cisco Introduction to Data Science** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
+| **Cisco Ethical Hacker** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
+| **IBM Agile Explorer** | IBM SkillsBuild | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
+| **Cisco Introduction to Cybersecurity** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
+| **Cisco Introduction to Data Science** | Cisco Networking Academy | [Verificar en Credly ↗](https://www.credly.com/users/ignacio-brenas-munoz) |
 
-🔗 *Credly ID: `ignacio-brenas-munoz` · Verificación criptográfica en tiempo real.*
+*Credly ID: `ignacio-brenas-munoz` · Verificación criptográfica oficial en tiempo real.*
 
 </div>
 
 ---
 
-## 🌍 Competencia Lingüística & Movilidad
+## <img src="https://api.iconify.design/lucide:languages.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Competencia Lingüística & Movilidad
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🗣️ Idiomas de Trabajo
-- 🇪🇸 **Castellano:** Nativo (lengua materna)
-- 🇬🇧 **English:** Nivel Profesional (**B2 / C1**) — Fluidez en especificaciones técnicas, comunicación internacional, RFCs y trabajo en equipo
-- 🏴 **Català:** Nativo (educación íntegra en Cataluña)
+### Idiomas de Trabajo
+- **Castellano:** Nativo (lengua materna)
+- **English:** Nivel Profesional (**B2 / C1**) — Fluidez en especificaciones técnicas, comunicación internacional, RFCs y trabajo en equipo
+- **Català:** Nativo (educación íntegra en Cataluña)
 
 </td>
 <td width="50%" valign="top">
 
-### 📍 Ubicación & Disponibilidad
-- 📍 **Ubicación:** Barcelona, España
-- 🏢 **Modalidad:** Presencial en área de Barcelona · Híbrido · 100% Remoto
-- 🟢 **Disponibilidad:** **Inmediata / Open to Work**
-- 🚆 **Movilidad:** Transporte público regular por Barcelona · Preparando carnet de conducir B
+### Ubicación & Disponibilidad
+- **Ubicación:** Barcelona, España
+- **Modalidad:** Presencial en área de Barcelona · Híbrido · 100% Remoto
+- **Disponibilidad:** **Inmediata / Open to Work**
+- **Movilidad:** Transporte público regular por Barcelona · Preparando carnet de conducir B
 
 </td>
 </tr>
@@ -314,7 +335,7 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 
 ---
 
-## 📊 Estadísticas & Actividad en GitHub
+## <img src="https://api.iconify.design/lucide:bar-chart-3.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Estadísticas & Actividad en GitHub
 
 <div align="center">
 
@@ -351,23 +372,29 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 
 ---
 
-## 📬 Contacto Directo
+## <img src="https://api.iconify.design/lucide:send.svg?color=%2310b981" width="24" style="vertical-align: -4px;" /> Contacto Directo
 
 <div align="center">
 
-> 💡 *Siempre abierto a colaborar en proyectos tecnológicos exigentes, puestos de ingeniería de software e integraciones de alto rendimiento.*
+> *Siempre abierto a colaborar en proyectos tecnológicos exigentes, puestos de ingeniería de software e integraciones de alto rendimiento.*
 
 <br/>
 
-[![Portfolio Oficial](https://img.shields.io/badge/🌐_Portfolio_En_Vivo-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white)](https://ignaciobrenas.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/💼_Conectar_en_LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/)
-[![Credly](https://img.shields.io/badge/🛡️_Credly-Verificar_Credenciales-f59e0b?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/ignacio-brenas-munoz)
-[![Email](https://img.shields.io/badge/📬_Enviar_Correo-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ignaciobrenas@gmail.com)
+<a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_En_Vivo-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/Conectar_en_LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-Verificar_Credenciales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
+<a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Enviar_Correo-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+
+<br/><br/>
+
+<a href="https://ignaciobrenas.vercel.app">
+  <img src="assets/sprites/ignacio_coding.svg" width="120" alt="Ignacio Coding 32-Bit Sprite" />
+</a>
 
 <br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=120&section=footer&animation=twinkling"/>
 
-**"Construyendo software sólido, eficiente y de alto impacto."** 💻⚡
+**"Construyendo software sólido, eficiente y de alto impacto."**
 
 </div>
