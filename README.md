@@ -1,12 +1,16 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=150&section=header&text=Ignacio%20Breñas%20Muñoz&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Desarrollador%20de%20Software%20%7C%20Barcelona%20%7C%20Full%20Stack%20Dev%20Intern%20@%20Soterguard&descAlignY=66&descSize=15"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=170&section=header&text=Ignacio%20Breñas%20Muñoz&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Desarrollador%20de%20Software%20%7C%20Barcelona%20%7C%20Full%20Stack%20Dev%20Intern%20@%20Soterguard&descAlignY=55&descSize=15"/>
 
 <!-- Brand Logo & 32-Bit Pixel Art Avatar -->
 <p align="center">
   <a href="https://ignaciobrenas.vercel.app">
-    <img src="assets/logo.png" height="70" align="middle" alt="Ignacio Breñas Logo" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
+      <img src="assets/logo.png" height="70" align="middle" alt="Ignacio Breñas Logo" />
+    </picture>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ignaciobrenas.vercel.app">
@@ -17,7 +21,7 @@
 <!-- Interactive Typing Tagline without unicode emojis -->
 <p align="center">
   <a href="https://ignaciobrenas.vercel.app">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=780&lines=Desarrollador+de+Software+en+Barcelona;Full+Stack+Developer+Intern+%40+Soterguard;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n;Open+to+Work+%7C+Disponibilidad+Inmediata" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=780&lines=Desarrollador+de+Software+en+Barcelona;Full+Stack+Developer+Intern+%40+Soterguard;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n;Open+to+Work+%7C+Disponibilidad+Inmediata" alt="Typing SVG" />
   </a>
 </p>
 
