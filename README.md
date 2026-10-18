@@ -1,40 +1,43 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=230&section=header&text=Ignacio%20Breñas%20Muñoz&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Desarrollador%20de%20Software%20%7C%20Barcelona%20%7C%20Full%20Stack%20Dev%20Intern%20@%20Soterguard&descAlignY=60&descSize=16"/>
-
-<br/><br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=150&section=header&text=Ignacio%20Breñas%20Muñoz&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Desarrollador%20de%20Software%20%7C%20Barcelona%20%7C%20Full%20Stack%20Dev%20Intern%20@%20Soterguard&descAlignY=66&descSize=15"/>
 
 <!-- Brand Logo & 32-Bit Pixel Art Avatar -->
-<a href="https://ignaciobrenas.vercel.app">
-  <img src="assets/logo.png" width="95" alt="Ignacio Breñas Logo" style="vertical-align: middle; margin-right: 22px;" />
-  <img src="assets/sprites/ignacio_wave.svg" width="112" alt="Ignacio Breñas 32-Bit Avatar" style="vertical-align: middle;" />
-</a>
-
-<br/><br/>
+<p align="center">
+  <a href="https://ignaciobrenas.vercel.app">
+    <img src="assets/logo.png" height="70" align="middle" alt="Ignacio Breñas Logo" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://ignaciobrenas.vercel.app">
+    <img src="assets/sprites/ignacio_wave.svg" height="84" align="middle" alt="Ignacio Breñas 32-Bit Avatar" />
+  </a>
+</p>
 
 <!-- Interactive Typing Tagline without unicode emojis -->
-<a href="https://ignaciobrenas.vercel.app">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=860&lines=Desarrollador+de+Software+en+Barcelona;Full+Stack+Developer+Intern+%40+Soterguard;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n;Open+to+Work+%7C+Disponibilidad+Inmediata" alt="Typing SVG" />
-</a>
-
-<br/><br/>
+<p align="center">
+  <a href="https://ignaciobrenas.vercel.app">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=1100&color=10B981&center=true&vCenter=true&width=780&lines=Desarrollador+de+Software+en+Barcelona;Full+Stack+Developer+Intern+%40+Soterguard;DAMA-CRM+%7C+TypeScript+100%25+Estricto+%2B+116+Tests;Servidores+MCP+%26+Agentes+Aut%C3%B3nomos+de+IA;PostgreSQL+%2B+PrismaORM+%2B+APIs+Limpias;Docker+%7C+Contenedores+LXC+%7C+Automatizaciones+n8n;Open+to+Work+%7C+Disponibilidad+Inmediata" alt="Typing SVG" />
+  </a>
+</p>
 
 <!-- Core Action Badges using clean SimpleIcons -->
-<a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_Oficial-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Web"/></a>
-<a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-4_Insignias_Oficiales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
-<a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Gmail-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://ignaciobrenas.vercel.app/CV_IgnacioBreñasMuñoz.pdf"><img src="https://img.shields.io/badge/Curriculum_Vitae-PDF_Oficial-38bdf8?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="CV"/></a>
-
-<br/><br/>
+<p align="center">
+  <a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_Oficial-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Web"/></a>
+  <a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-4_Insignias_Oficiales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
+  <a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Gmail-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://ignaciobrenas.vercel.app/CV_IgnacioBreñasMuñoz.pdf"><img src="https://img.shields.io/badge/Curriculum_Vitae-PDF_Oficial-38bdf8?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white" alt="CV"/></a>
+</p>
 
 <!-- Identity Chips using clean tags -->
-<a href="https://soterguard.com"><img src="https://img.shields.io/badge/Puesto-Full_Stack_Dev_Intern_@_Soterguard-10b981?style=flat-square&logo=shield&logoColor=white" alt="Puesto"/></a>
-<img src="https://img.shields.io/badge/Formacion-DAW_(2º_Año)_@_STUCOM_Pelai-0284c7?style=flat-square&logo=gitbook&logoColor=white" alt="Formacion"/>
-<img src="https://img.shields.io/badge/Ubicacion-Barcelona,_España_(Híbrido_/_Remoto)-6366f1?style=flat-square&logo=google-maps&logoColor=white" alt="Ubicacion"/>
-<img src="https://img.shields.io/badge/Disponibilidad-Inmediata_·_Open_to_Work-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="Disponibilidad"/>
-<img src="https://img.shields.io/badge/Idiomas-Castellano_·_English_·_Català-059669?style=flat-square&logo=translate&logoColor=white" alt="Idiomas"/>
+<p align="center">
+  <a href="https://soterguard.com"><img src="https://img.shields.io/badge/Puesto-Full_Stack_Dev_Intern_@_Soterguard-10b981?style=flat-square&logo=shield&logoColor=white" alt="Puesto"/></a>
+  <img src="https://img.shields.io/badge/Formacion-DAW_(2º_Año)_@_STUCOM_Pelai-0284c7?style=flat-square&logo=gitbook&logoColor=white" alt="Formacion"/>
+  <img src="https://img.shields.io/badge/Ubicacion-Barcelona,_España_(Híbrido_/_Remoto)-6366f1?style=flat-square&logo=google-maps&logoColor=white" alt="Ubicacion"/>
+  <img src="https://img.shields.io/badge/Disponibilidad-Inmediata_·_Open_to_Work-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="Disponibilidad"/>
+  <img src="https://img.shields.io/badge/Idiomas-Castellano_·_English_·_Català-059669?style=flat-square&logo=translate&logoColor=white" alt="Idiomas"/>
+</p>
 
 </div>
 
@@ -342,31 +345,30 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 <!-- Contador de visitas oficial -->
 <img src="https://komarev.com/ghpvc/?username=Ignaciobrenas&color=10b981&style=for-the-badge&label=Visitas+al+Perfil" alt="Visitas al Perfil"/>
 
-<br/><br/>
-
-<!-- Tarjeta de estadísticas de GitHub con paleta oscura del portfolio -->
-<a href="https://github.com/Ignaciobrenas">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=Ignaciobrenas&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=030805&title_color=38bdf8&text_color=ede7da&icon_color=10b981&border_color=163623&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="GitHub Stats"/>
-</a>
-&nbsp;
-<!-- Tarjeta de lenguajes más usados con paleta del portfolio -->
-<a href="https://github.com/Ignaciobrenas">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ignaciobrenas&layout=compact&langs_count=8&theme=dark&bg_color=030805&title_color=38bdf8&text_color=ede7da&border_color=163623" alt="Top Languages"/>
-</a>
-
-<br/><br/>
+<!-- Tarjetas de estadísticas de GitHub -->
+<p align="center">
+  <a href="https://github.com/Ignaciobrenas">
+    <img height="185em" src="https://github-readme-stats.vercel.app/api?username=Ignaciobrenas&show_icons=true&theme=dark&include_all_commits=true&count_private=true&bg_color=030805&title_color=38bdf8&text_color=ede7da&icon_color=10b981&border_color=163623&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" alt="GitHub Stats"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/Ignaciobrenas">
+    <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ignaciobrenas&layout=compact&langs_count=8&theme=dark&bg_color=030805&title_color=38bdf8&text_color=ede7da&border_color=163623" alt="Top Languages"/>
+  </a>
+</p>
 
 <!-- Tarjeta de racha continua -->
-<a href="https://github.com/Ignaciobrenas">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ignaciobrenas&theme=dark&background=030805&ring=10b981&fire=10b981&currStreakLabel=38bdf8&sideNums=38bdf8&currStreakNum=10b981&dates=94a3b8&sideLabels=10b981&border=163623&mode=weekly" alt="Streak Stats"/>
-</a>
-
-<br/><br/>
+<p align="center">
+  <a href="https://github.com/Ignaciobrenas">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ignaciobrenas&theme=dark&background=030805&ring=10b981&fire=10b981&currStreakLabel=38bdf8&sideNums=38bdf8&currStreakNum=10b981&dates=94a3b8&sideLabels=10b981&border=163623&mode=weekly" alt="Streak Stats"/>
+  </a>
+</p>
 
 <!-- Gráfico interactivo de actividad de contribuciones -->
-<a href="https://github.com/Ignaciobrenas">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ignaciobrenas&bg_color=030805&color=38bdf8&line=10b981&point=ffffff&area=true&area_color=0a1a10&hide_border=false&border_color=163623&title_color=38bdf8&custom_title=Historial%20de%20Actividad%20y%20Contribuciones%20en%20GitHub" alt="Gráfico de Actividad" width="100%"/>
-</a>
+<p align="center">
+  <a href="https://github.com/Ignaciobrenas">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ignaciobrenas&bg_color=030805&color=38bdf8&line=10b981&point=ffffff&area=true&area_color=0a1a10&hide_border=false&border_color=163623&title_color=38bdf8&custom_title=Historial%20de%20Actividad%20y%20Contribuciones%20en%20GitHub" alt="Gráfico de Actividad" width="100%"/>
+  </a>
+</p>
 
 </div>
 
@@ -378,22 +380,20 @@ Entorno de terminal de máxima eficiencia para Windows Terminal, PowerShell 7, N
 
 > *Siempre abierto a colaborar en proyectos tecnológicos exigentes, puestos de ingeniería de software e integraciones de alto rendimiento.*
 
-<br/>
+<p align="center">
+  <a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_En_Vivo-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/Conectar_en_LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-Verificar_Credenciales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
+  <a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Enviar_Correo-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
 
-<a href="https://ignaciobrenas.vercel.app"><img src="https://img.shields.io/badge/Portfolio_En_Vivo-ignaciobrenas.vercel.app-10b981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/ignacio-bre%C3%B1as-mu%C3%B1oz-02a90b218/"><img src="https://img.shields.io/badge/Conectar_en_LinkedIn-Ignacio_Breñas-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://www.credly.com/users/ignacio-brenas-munoz"><img src="https://img.shields.io/badge/Credly-Verificar_Credenciales-f59e0b?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"/></a>
-<a href="mailto:ignaciobrenas@gmail.com"><img src="https://img.shields.io/badge/Enviar_Correo-ignaciobrenas%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<p align="center">
+  <a href="https://ignaciobrenas.vercel.app">
+    <img src="assets/sprites/ignacio_coding.svg" height="85" alt="Ignacio Coding 32-Bit Sprite" />
+  </a>
+</p>
 
-<br/><br/>
-
-<a href="https://ignaciobrenas.vercel.app">
-  <img src="assets/sprites/ignacio_coding.svg" width="120" alt="Ignacio Coding 32-Bit Sprite" />
-</a>
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=120&section=footer&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,16&height=100&section=footer&animation=twinkling"/>
 
 **"Construyendo software sólido, eficiente y de alto impacto."**
 
