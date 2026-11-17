@@ -1,0 +1,53 @@
+<svg width="1200" height="224" viewBox="0 0 1200 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#ECFDF5" />
+    </linearGradient>
+    <radialGradient id="glow-logo-l" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-corner-l" cx="92%" cy="18%" r="48%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="top-acc-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#059669" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="dots-l" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="14" r="1" fill="#A7F3D0" fill-opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="224" rx="26" fill="url(#bg-l)" />
+  <rect width="1200" height="224" rx="26" fill="url(#dots-l)" />
+  <rect width="1200" height="224" rx="26" fill="url(#glow-corner-l)" />
+  <rect x="1" y="1" width="1198" height="222" rx="25" fill="none" stroke="#CBD5E1" stroke-width="1.5" />
+  <line x1="160" y1="1.5" x2="1040" y2="1.5" stroke="url(#top-acc-l)" stroke-width="2.5" />
+
+  <!-- Left: Clean IB Brand Logo -->
+  <g transform="translate(68, 42)">
+    <circle cx="70" cy="70" r="88" fill="url(#glow-logo-l)" />
+    <rect width="140" height="140" rx="32" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1.8" />
+    <g transform="translate(26, 26) scale(0.88)">
+      <path d="M1.92,33.53L1.92,98.78L66.09,98.78L66.09,91.30L9.60,91.30L9.47,91.17L9.47,33.53Z M34.55,0.90L34.55,8.38L91.04,8.38L91.17,8.51L91.17,66.15L98.72,66.15L98.72,0.90Z" fill="#059669" fill-rule="evenodd" />
+      <path d="M38.39,16.06L38.39,84.64L67.18,84.58L69.80,84.26L73.45,83.37L76.07,82.34L78.57,81.00L81.51,78.76L83.17,77.03L84.84,74.73L85.86,72.74L86.69,70.51L87.20,68.33L87.46,66.15L87.40,63.08L86.95,60.59L85.73,57.20L84.58,55.09L83.05,52.91L81.32,51.06L78.63,49.01L76.46,47.92L78.76,46.32L80.17,44.91L81.13,43.70L82.79,40.75L83.81,37.49L84.07,35.51L84.07,33.21L83.75,30.58L82.85,27.38L81.57,24.82L80.42,23.22L79.21,21.88L77.80,20.67L76.14,19.51L73.70,18.23L72.10,17.59L69.23,16.76L66.28,16.25L64.11,16.06Z M50.61,54.32L65.71,54.25L68.39,54.70L70.12,55.34L71.27,55.98L72.36,56.81L73.77,58.35L74.66,59.88L75.18,61.42L75.37,62.57L75.30,65.26L74.98,66.86L74.15,68.84L73.38,69.93L71.98,71.21L70.44,72.04L68.39,72.68L66.35,72.94L50.67,72.94Z M50.61,27.19L50.74,27.06L63.98,27.13L66.67,27.64L67.95,28.09L69.42,28.85L70.19,29.43L71.47,30.77L72.23,32.12L72.68,33.53L72.81,34.42L72.68,37.24L72.30,38.71L71.66,40.05L70.89,41.07L69.42,42.29L67.75,43.06L66.28,43.44L63.72,43.70L50.74,43.70L50.61,43.57Z M16.76,16.06L16.76,84.64L29.05,84.64L29.05,16.06Z" fill="#0F172A" fill-rule="evenodd" />
+    </g>
+  </g>
+
+  <!-- Right: Simple Clean Typography -->
+  <g transform="translate(248, 48)">
+    <rect width="218" height="28" rx="14" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.2" />
+    <circle cx="16" cy="14" r="4" fill="#059669" />
+    <text x="28" y="18" fill="#065F46" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.8">BARCELONA · OPEN TO WORK</text>
+
+    <text x="0" y="72" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-0.8">Ignacio Breñas Muñoz</text>
+
+    <text x="0" y="106" fill="#059669" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700"> Software Developer</text>
+    <text x="0" y="132" fill="#475569" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400">Desarrollador de Software  · ignaciobrenas.vercel.app</text>
+  </g>
+</svg>
