@@ -144,27 +144,6 @@ THEMES = {
     },
 }
 
-ROLE_PALETTES = {
-    "soterguard": {
-        "line": "#2563eb",
-        "line_dark": "#60a5fa",
-        "accent_rgb_dark": (30, 88, 210),
-        "accent_rgb_light": (58, 122, 228),
-    },
-    "vimtech": {
-        "line": "#0284c7",
-        "line_dark": "#38bdf8",
-        "accent_rgb_dark": (14, 116, 184),
-        "accent_rgb_light": (42, 148, 218),
-    },
-    "ajma": {
-        "line": "#4f46e5",
-        "line_dark": "#818cf8",
-        "accent_rgb_dark": (55, 65, 185),
-        "accent_rgb_light": (88, 98, 212),
-    },
-}
-
 PROJECT_PALETTES = {
     "damaCrm": {"dot": "#60a5fa", "dot_light": "#1d4ed8", "tilt": -0.7, "motif": "grid", "stroke_c": "#3b82f6"},
     "commitFlow": {"dot": "#38bdf8", "dot_light": "#0284c7", "tilt": 0.7, "motif": "gitgraph", "stroke_c": "#0ea5e9"},
@@ -465,9 +444,7 @@ ICON = {
     "arrow": ["M7 17L17 7", "M9 7h8v8"],
     "mail": ["M4 6h16v12H4z", "M4 7l8 6 8-6"],
     "layers": ["M4 5h16v4H4z", "M4 11h16v4H4z", "M4 17h10v2H4z"],
-    "shield": ["M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z", "M8.5 12l2.5 2.5 4.5-5"],
     "award": ["M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12z", "M8.21 13.89 7 23l5-3 5 3-1.21-9.12"],
-    "grad": ["M22 10v6M2 10l10-5 10 5-10 5z", "M6 12v5c3 3 9 3 12 0v-5"],
 }
 
 
@@ -824,16 +801,6 @@ def encode_badge_png(rel_path, size=92):
     return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
-def stucom_svg(x, y, target_h, theme_key):
-    """Inline STUCOM vector logo matching theme polarity (dark cream vs light black)."""
-    fname = "stucom-dark.svg" if theme_key == "dark" else "stucom.svg"
-    raw = (HERE / "logos" / fname).read_text(encoding="utf-8")
-    inner = re.sub(r"</?svg[^>]*>", "", raw).strip()
-    sc = target_h / 110.0
-    w = 329.0 * sc
-    return f'<g transform="translate({n(x)} {n(y)}) scale({n(sc)})">{inner}</g>', w
-
-
 def embed_sprite(cv, sprite_name, x, y, target_h, clip_attr="", shadow=True, flip_x=False):
     """Inline one of Ignacio's portfolio vector sprites crisply inside card bounds."""
     raw = (HERE / "sprites" / f"{sprite_name}.svg").read_text(encoding="utf-8")
@@ -1183,211 +1150,6 @@ def build_section(num, title, aside, theme_key):
     return cv
 
 
-def build_experience(theme_key):
-    T = THEMES[theme_key]
-    dark = theme_key == "dark"
-    exp = P["experience"]
-    roles = exp["roles"]
-    X0 = MARGIN
-    gap = 16
-    metro_h = 278
-
-    role_layouts = []
-    for r in roles:
-        pal = ROLE_PALETTES[r["key"]]
-        has_stoam = "stoamText" in r
-        has_sprite = r["key"] == "soterguard"
-        wrap_w = 576 if has_sprite else 646
-        by = 0
-        stoam_lines = wrap(r["stoamText"], sans(400), 12.8, 520) if has_stoam else []
-        stoam_box_h = (22 + 17 * len(stoam_lines) + 12) if has_stoam else 0
-        if has_stoam:
-            by += stoam_box_h + 12
-        bullet_lines = []
-        for b in r["bullets"]:
-            lines = wrap(b, sans(400), 13.6, wrap_w)
-            bullet_lines.append((by, lines))
-            by += 20 * len(lines) + 5
-        by += 8
-        tag_items = [(20 + tw(s, sans(600), 11.8), s) for s in r["tags"]]
-        placed_tags, tags_h = flow(tag_items, 460 if has_sprite else wrap_w + 10, 6, 6, 25)
-        card_h = max(214 if not has_sprite else 284, 26 + 68 + 12 + by + tags_h + 22)
-        role_layouts.append((r, pal, stoam_lines, stoam_box_h, bullet_lines, by, placed_tags, card_h))
-
-    H = metro_h + gap + sum(item[7] + gap for item in role_layouts) - gap + MARGIN + 4
-    cv = Canvas(CONTENT_W + 2 * MARGIN, H, experience_alt())
-
-    # 1. Metro Career Arc Oil Canvas Box
-    cv.add(*oil_box(cv, X0, 0, CONTENT_W, metro_h, 24, theme_key, seed=21))
-    cv.add(
-        rrect(
-            X0 + 18, 16, CONTENT_W - 36, metro_h - 32, 18,
-            T["plate"], f' fill-opacity="{0.60 if dark else 0.84}" stroke="{T["plate_stroke"]}" stroke-opacity="0.55" stroke-width="1.1"'
-        )
-    )
-    px, py = X0 + 34, 28
-    cv.add(cv.text_box(px, py, exp["label"], mono(700), 11.5, T["accent"], 16, ls=0.9))
-    cv.add(cv.text_box(px, py + 18, exp["title"], DISPLAY, 30, T["ink"], 36, ls=-0.8))
-    aw = tw(exp["aside"], HAND, 25)
-    ax = X0 + CONTENT_W - 34
-    cv.add(
-        f'<g transform="rotate(-3 {n(ax - aw / 2)} {py + 22})">'
-        + cv.text_box(ax, py + 8, exp["aside"], HAND, 25, T["hand"], 30, "end")
-        + "</g>"
-    )
-
-    ox, oy = px + 14, py + 76
-    x_start, x_end = ox + 42, ox + 716
-    span = x_end - x_start
-    milestones = exp["milestones"]
-
-    def xpos(val):
-        return x_start + (val / (len(milestones) - 1)) * span
-
-    lanes = sorted(roles, key=lambda item: item["lane"])
-    for li, r in enumerate(lanes):
-        pal = ROLE_PALETTES[r["key"]]
-        lc = pal["line_dark"] if dark else pal["line"]
-        ly = oy + 20 + li * 40
-        sx0 = xpos(r["start"])
-        sx1 = xpos(r["end"])
-        cv.add(rrect(sx0, ly - 4, max(16, sx1 - sx0), 8, 4, lc))
-
-    for li, r in enumerate(lanes):
-        pal = ROLE_PALETTES[r["key"]]
-        lc = pal["line_dark"] if dark else pal["line"]
-        ly = oy + 20 + li * 40
-        sx0 = xpos(r["start"])
-        sx1 = xpos(r["end"])
-        cv.add(
-            rrect(sx0 - 38, ly - 15, 30, 30, 8, "#f6f1ea" if dark else "#ffffff", " " + cv.shadow(2, 3, T["shadow_c"], 0.25)),
-            rrect(sx0 - 36, ly - 13, 26, 26, 6, lc),
-            cv.text(sx0 - 23, m(DISPLAY).baseline(ly - 15, 30, 14), r["line"], DISPLAY, 14, "#040b24" if dark else "#ffffff", "middle"),
-            f'<circle cx="{n(sx0)}" cy="{n(ly)}" r="5" fill="#ffffff" stroke="{lc}" stroke-width="2.8"/>',
-            f'<circle cx="{n(sx1)}" cy="{n(ly)}" r="5" fill="{T["gold"] if r["end"] >= 3.0 else "#ffffff"}" stroke="{lc}" stroke-width="2.8"/>',
-        )
-        if r["start"] > 2.2:
-            cv.add(cv.text_box(sx0 - 46, ly - 9, r["lineName"], sans(700), 12, T["text"], 16, "end"))
-        else:
-            cv.add(cv.text_box(sx0 + 10, ly + 7, r["lineName"], sans(700), 11.5, lc, 15))
-
-    last_y = oy + 20 + (len(lanes) - 1) * 40
-    cv.add(rrect(x_end - 9, oy + 6, 18, last_y - oy + 12, 9, T["pill_bg"], f' stroke="{T["gold"]}" stroke-width="2.2"'))
-    els, _ = pill(cv, x_end + 16, oy + 60, exp["today"], sans(700), 11.5, 25, 10, T["btn_bg"], T["btn_fg"])
-    cv.add(*els)
-
-    for i, yr in enumerate(milestones):
-        tx = xpos(i)
-        is_last = i == len(milestones) - 1
-        cv.add(
-            f'<line x1="{n(tx)}" y1="{oy + 114}" x2="{n(tx)}" y2="{oy + 120}" stroke="{T["muted"]}" stroke-opacity="0.45" stroke-width="1.2"/>',
-            cv.text_box(tx, oy + 123, yr, mono(700 if is_last else 600), 11.5, T["ink"] if is_last else T["muted"], 15, "middle"),
-        )
-
-    # 2. Individual Role Oil-Canvas Boxes with Company Logos, Stoam Connect & Soterguard Sprite
-    top = metro_h + gap
-    for idx, (r, pal, stoam_lines, stoam_box_h, bullet_lines, tags_y_off, placed_tags, card_h) in enumerate(role_layouts):
-        tint = pal["accent_rgb_dark"] if dark else pal["accent_rgb_light"]
-        cv.add(*oil_box(cv, X0, top, CONTENT_W, card_h, 24, theme_key, seed=31 + idx * 11, tint_rgb=tint))
-
-        plate_x, plate_y, plate_w, plate_h = X0 + 16, top + 14, CONTENT_W - 32, card_h - 28
-        cv.add(
-            rrect(
-                plate_x, plate_y, plate_w, plate_h, 18,
-                T["plate"], f' fill-opacity="{0.60 if dark else 0.84}" stroke="{T["plate_stroke"]}" stroke-opacity="0.52" stroke-width="1.1"'
-            )
-        )
-
-        lc = pal["line_dark"] if dark else pal["line"]
-        cx, cy = X0 + 34, top + 28
-        cv.add(
-            rrect(cx, cy, 44, 44, 12, "#f6f1ea" if dark else "#ffffff"),
-            rrect(cx + 3, cy + 3, 38, 38, 9, lc),
-            cv.text(cx + 22, m(DISPLAY).baseline(cy, 44, 21), r["line"], DISPLAY, 21, "#040b24" if dark else "#ffffff", "middle"),
-        )
-        tx = cx + 58
-        cv.add(
-            cv.text_box(tx, cy - 1, r["role"], sans(700), 19.5, T["ink"], 25),
-            cv.text_box(tx, cy + 25, r["company"], sans(500), 14.2, T["text"], 19),
-            cv.text_box(tx, cy + 45, f'{r["dates"]} · {r["place"]}', mono(600), 11.2, T["muted"], 17),
-        )
-
-        # Authentic Company Logo Plaque on Top-Right of each Role Card
-        plaque_w, plaque_h = 186, 52
-        plaque_x = X0 + CONTENT_W - 32 - plaque_w
-        plaque_y = top + 24
-        plaque_bg = "#06143a" if dark else "#ffffff"
-        plaque_st = "#2e64bf" if dark else "#8eb6ed"
-        cv.add(
-            rrect(
-                plaque_x, plaque_y, plaque_w, plaque_h, 14,
-                plaque_bg, f' fill-opacity="{0.90 if dark else 0.96}" stroke="{plaque_st}" stroke-width="1.3" {cv.shadow(3, 5, T["shadow_c"], 0.25 if dark else 0.1)}'
-            )
-        )
-        if r["key"] == "soterguard":
-            lg_uri, lw, lh = encode_png_fit("logos/soterguard-dark.png" if dark else "logos/soterguard.png", 160, 32)
-            cv.add(f'<image x="{n(plaque_x + (plaque_w - lw) / 2)}" y="{n(plaque_y + (plaque_h - lh) / 2)}" width="{lw}" height="{lh}" href="{lg_uri}" preserveAspectRatio="xMidYMid meet"/>')
-        elif r["key"] == "vimtech":
-            # vimtech.png has WHITE text (for dark mode); vimtech-dark.png has DARK NAVY text (for light mode)!
-            lg_uri, lw, lh = encode_png_fit("logos/vimtech.png" if dark else "logos/vimtech-dark.png", 156, 36)
-            cv.add(f'<image x="{n(plaque_x + (plaque_w - lw) / 2)}" y="{n(plaque_y + (plaque_h - lh) / 2)}" width="{lw}" height="{lh}" href="{lg_uri}" preserveAspectRatio="xMidYMid meet"/>')
-        elif r["key"] == "ajma":
-            lg_uri, lw, lh = encode_png_fit("logos/ajma.png", 34, 34)
-            cv.add(
-                f'<image x="{n(plaque_x + 20)}" y="{n(plaque_y + (plaque_h - lh) / 2)}" width="{lw}" height="{lh}" href="{lg_uri}" preserveAspectRatio="xMidYMid meet"/>',
-                cv.text_box(plaque_x + 62, plaque_y + 8, "AJMA", DISPLAY, 18.5, T["ink"], 22, ls=-0.4),
-                cv.text_box(plaque_x + 62, plaque_y + 29, "El Masnou · A/V", mono(600), 9.5, T["muted"], 14),
-            )
-
-        # Featured Stoam Connect Participation Box with Stoam logo right next to the mention
-        b_base = cy + 72
-        if stoam_lines:
-            st_box_w = 592
-            st_bg = "#081c54" if dark else "#eaf2ff"
-            st_border = "#3b82f6" if dark else "#60a5fa"
-            cv.add(
-                rrect(cx, b_base, st_box_w, stoam_box_h, 13, st_bg, f' fill-opacity="{0.86 if dark else 0.94}" stroke="{st_border}" stroke-width="1.3"')
-            )
-            stoam_uri, sw, sh_i = encode_png_fit("logos/stoam.png", 34, 34)
-            icon_bg = "#ffffff"
-            ibx = cx + 10
-            iby = b_base + (stoam_box_h - 40) / 2
-            cv.add(
-                rrect(ibx, iby, 40, 40, 10, icon_bg, f' stroke="{st_border}" stroke-opacity="0.55" stroke-width="1"'),
-                f'<image x="{n(ibx + (40 - sw) / 2)}" y="{n(iby + (40 - sh_i) / 2)}" width="{sw}" height="{sh_i}" href="{stoam_uri}" preserveAspectRatio="xMidYMid meet"/>',
-                cv.text_box(cx + 60, b_base + 7, r["stoamTitle"], sans(700), 13.2, T["accent"], 17),
-                *cv.lines(cx + 60, b_base + 24, stoam_lines, sans(400), 12.8, T["ink"], 17),
-            )
-
-        # Regular bullets
-        for boff, lines in bullet_lines:
-            cv.add(f'<circle cx="{cx + 4}" cy="{n(b_base + boff + 10)}" r="3" fill="{lc}"/>')
-            cv.add(*cv.lines(cx + 16, b_base + boff, lines, sans(400), 13.6, T["body"], 20))
-
-        # Stack tags
-        t_base = b_base + tags_y_off
-        for qx, qy, s, _w in placed_tags:
-            e, _ = pill(
-                cv, cx + qx, t_base + qy + 12.5, s, sans(600), 11.8, 25, 9.5,
-                T["pill_bg"], T["pill_fg"], extra=f' stroke="{T["pill_stroke"]}" stroke-opacity="0.6" stroke-width="1"'
-            )
-            cv.add(*e)
-
-        # Confident Soterguard Sprite docked onto bottom-right inside plate below the logo plaque
-        if r["key"] == "soterguard":
-            plate_clip = cv.clip_rrect(plate_x, plate_y, plate_w, plate_h, 18)
-            sp_h = min(192, card_h - 92)
-            sp_w_est = sp_h * (235.0 / 384.0)
-            sp_x = plaque_x + (plaque_w - sp_w_est) / 2
-            sp_y = plate_y + plate_h - sp_h + 2
-            sg_g, _ = embed_sprite(cv, "ignacio_soterguard_confident", sp_x, sp_y, sp_h, clip_attr=plate_clip)
-            cv.add(sg_g)
-
-        top += card_h + gap
-
-    return cv
-
-
 def build_project(p, theme_key):
     T = THEMES[theme_key]
     dark = theme_key == "dark"
@@ -1460,11 +1222,11 @@ def build_project(p, theme_key):
     return cv
 
 
-def build_classroom(theme_key):
-    """Oil-canvas card highlighting STUCOM classroom builds (Nurse-Simulator, Frontend, RunAndEat)."""
+def build_more_work(theme_key):
+    """Oil-canvas card highlighting additional full-stack engineering builds."""
     T = THEMES[theme_key]
     dark = theme_key == "dark"
-    cl = P["work"]["classroom"]
+    cl = P["work"]["more"]
     items = cl["items"]
     X, PAD = MARGIN, 22
     inner_w = CONTENT_W - 2 * PAD
@@ -1483,21 +1245,20 @@ def build_classroom(theme_key):
     card_h = max(176, max_body_h)
     foot_h = 28
     H = PAD + 40 + card_h + 14 + foot_h + PAD
-    cv = Canvas(CONTENT_W + 2 * MARGIN, H + MARGIN, classroom_alt())
+    cv = Canvas(CONTENT_W + 2 * MARGIN, H + MARGIN, more_work_alt())
     cv.add(*oil_box(cv, X, 0, CONTENT_W, H, 26, theme_key, seed=67))
 
-    # Top frosted header strip with STUCOM school logo
+    # Top frosted header strip
     cv.add(
         rrect(X + PAD, PAD - 3, inner_w, 34, 13, T["plate"], f' fill-opacity="{0.74 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.1"'),
-        icon(ICON["grad"], X + PAD + 14, PAD + 5, 17, T["accent"]),
+        icon(ICON["layers"], X + PAD + 14, PAD + 5, 17, T["accent"]),
         cv.text_box(X + PAD + 38, PAD + 4, cl["label"], mono(700), 11.5, T["ink"], 20, ls=0.8),
     )
-    st_g, st_w = stucom_svg(X + CONTENT_W - PAD - 82, PAD + 2, 24, theme_key)
+    right = X + CONTENT_W - PAD - 14
     aw = tw(cl["aside"], HAND, 22)
     cv.add(
-        st_g,
-        f'<g transform="rotate(-1.8 {n(X + CONTENT_W - PAD - st_w - 22 - aw / 2)} {PAD + 14})">'
-        + cv.text_box(X + CONTENT_W - PAD - st_w - 22, PAD + 1, cl["aside"], HAND, 22, T["hand"], 26, "end")
+        f'<g transform="rotate(-1.8 {n(right - aw / 2)} {PAD + 14})">'
+        + cv.text_box(right, PAD + 1, cl["aside"], HAND, 22, T["hand"], 26, "end")
         + "</g>",
     )
 
@@ -1532,124 +1293,71 @@ def build_classroom(theme_key):
     return cv
 
 
-def build_systems(theme_key):
+def build_certifications(theme_key):
+    """Oil-canvas card showcasing verified Credly certifications (Cisco & IBM)."""
     T = THEMES[theme_key]
     dark = theme_key == "dark"
-    sys = P["systems"]
-    ch = sys["chain"]
-    H = 556
-    X = MARGIN
-    cv = Canvas(CONTENT_W + 2 * MARGIN, H, systems_alt())
+    cr = P["certifications"]
+    X, PAD = MARGIN, 22
+    inner_w = CONTENT_W - 2 * PAD
+    cert_h = 98
+    H = PAD + 44 + cert_h * 2 + 12 + 14 + 26 + PAD
+    cv = Canvas(CONTENT_W + 2 * MARGIN, H + MARGIN, certifications_alt())
+    cv.add(*oil_box(cv, X, 0, CONTENT_W, H, 28, theme_key, seed=111))
 
-    cv.add(*oil_box(cv, X, 0, CONTENT_W, H, 28, theme_key, seed=71))
-    px, py, pw, ph = X + 18, 18, CONTENT_W - 36, H - 36
+    # Top header inside crisp frosted gallery strip
     cv.add(
-        rrect(
-            px, py, pw, ph, 20,
-            T["plate"], f' fill-opacity="{0.60 if dark else 0.84}" stroke="{T["plate_stroke"]}" stroke-opacity="0.52" stroke-width="1.1"'
-        )
+        rrect(X + PAD, PAD - 3, inner_w, 34, 13, T["plate"], f' fill-opacity="{0.72 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.1"'),
+        icon(ICON["award"], X + PAD + 14, PAD + 5, 18, T["gold"]),
+        cv.text_box(X + PAD + 38, PAD + 4, cr["header"], sans(800), 14, T["ink"], 20),
     )
-
-    stroke = T["accent"]
-    cv.defs.append(
-        f'<marker id="ah" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible">'
-        f'<path d="M0 0 L4 2 L0 4 Z" fill="{stroke}"/></marker>'
-    )
-
-    def line(x1, y1, x2, y2, head=False):
-        if head:
-            dx, dy = x2 - x1, y2 - y1
-            ln = math.hypot(dx, dy)
-            x2, y2 = x2 - dx / ln * 4, y2 - dy / ln * 4
-        mk = ' marker-end="url(#ah)"' if head else ""
-        return f'<path d="M{n(X + x1)} {n(y1)}L{n(X + x2)} {n(y2)}" stroke="{stroke}" stroke-width="2" stroke-linecap="round" fill="none"{mk}/>'
-
-    # Header left + Coding Sprite docked in top-right coding alcove
-    aside = cv.text_box(X + 36, 26, sys["aside"], HAND, 25, T["hand"], 30)
-    cv.add(f'<g transform="rotate(-3 {X + 95} 40)">{aside}</g>')
-    cv.add(cv.text_box(X + 36, 56, sys["headline"], DISPLAY, 32, T["ink"], 35, ls=-0.9))
-    intro = wrap(sys["lead"], sans(400), 13.8, 600)
-    cv.add(*cv.lines(X + 36, 94, intro, sans(400), 13.8, T["body"], 19.5))
-
-    # Top-right coding sprite inside framed miniature easel/monitor tile
-    cod_h = 104
-    cod_w = cod_h * (215.0 / 286.0)
-    tile_w, tile_h = 112, 114
-    tile_x, tile_y = px + pw - tile_w - 14, py + 10
-    cv.add(*oil_box(cv, tile_x, tile_y, tile_w, tile_h, 16, theme_key, seed=307, preset="mini", frame=True))
-    tile_clip = cv.clip_rrect(tile_x + 2, tile_y + 2, tile_w - 4, tile_h - 4, 14)
-    cod_x = tile_x + tile_w - cod_w - 4
-    cod_y = tile_y + tile_h - cod_h
-    cod_g, _ = embed_sprite(cv, "ignacio_coding", cod_x, cod_y, cod_h, clip_attr=tile_clip)
-    cv.add(cod_g)
-
-    # Architecture Flow Diagram
-    sub_tops = [152, 234, 316]
-    sub_cy = [t + 30 for t in sub_tops]
+    aw = tw(cr["aside"], HAND, 23)
+    right = X + CONTENT_W - PAD - 14
     cv.add(
-        line(166, 264, 212, 264, True),
-        line(388, 264, 428, 264),
-        line(428, sub_cy[0], 428, sub_cy[-1]),
-        *[line(428, c, 466, c, True) for c in sub_cy],
-        *[line(654, c, 692, c) for c in sub_cy],
-        line(692, sub_cy[0], 692, sub_cy[-1]),
-        line(692, 264, 728, 264, True),
+        f'<g transform="rotate(-1.8 {n(right - aw / 2)} {PAD + 14})">'
+        + cv.text_box(right, PAD + 1, cr["aside"], HAND, 23, T["hand"], 26, "end")
+        + "</g>"
     )
 
-    def node_card(nx, ny, nw, nh, title, body, fill, fg_t, fg_b, stroke_c=None, sh=None):
-        st_attr = f' stroke="{stroke_c}" stroke-width="1.5"' if stroke_c else ""
-        sh_attr = f" {sh}" if sh else ""
-        out = [rrect(X + nx, ny, nw, nh, 16, fill, st_attr + sh_attr)]
-        bl = wrap(body, sans(400), 12.2, nw - 18)
-        block = 18 + 16 * len(bl)
-        top_y = ny + (nh - block) / 2
-        cx = X + nx + nw / 2
-        out.append(cv.text_box(cx, top_y, title, sans(700), 14.5, fg_t, 18, "middle"))
-        out += cv.lines(cx, top_y + 19, bl, sans(400), 12.2, fg_b, 16, "middle")
-        return out
-
-    soft = cv.shadow(4, 6, T["shadow_c"], 0.25 if dark else 0.1)
-    card_bg = "#0a1c4d" if dark else "#ffffff"
-    card_stroke = "#2b5cb8" if dark else "#a8c4ef"
-    core_bg = cv.linear([(0, "#1d4ed8"), (1, "#0f2c70")], 135)
-    prod_bg = cv.linear([(0, "#ede5da"), (1, "#cfc4b8")], 135) if dark else cv.linear([(0, "#07153d"), (1, "#020619")], 135)
-    prod_t = "#040b24" if dark else "#f6f1ea"
-    prod_b = "#1e2e5c" if dark else "#c3d4ee"
-
-    cv.add(*node_card(34, 232, 132, 64, ch["spec"], ch["specSub"], card_bg, T["ink"], T["muted"], card_stroke, soft))
-    cv.add(*node_card(214, 222, 174, 84, ch["core"], ch["coreSub"], core_bg, "#ffffff", "#dbeafe", "#60a5fa", cv.shadow(8, 10, T["shadow_c"], 0.35)))
-
-    for ag, top_y in zip(ch["agents"], sub_tops):
-        cv.add(*node_card(468, top_y, 186, 60, ag["name"], ag["sub"], card_bg, T["ink"], T["muted"], card_stroke, soft))
-
-    cv.add(*node_card(730, 228, 114, 72, ch["prod"], ch["prodSub"], prod_bg, prod_t, prod_b, T["gold"], soft))
-
-    cv.add(
-        cv.text_box(X + 561, 132, ch["parallel"], mono(700), 10.5, T["accent"], 14, "middle", 1.2),
-        cv.text_box(X + 100, 204, ch["note"], HAND, 22, T["hand"], 26, "middle"),
-    )
-
-    # Bottom trays
-    tray_bg = "#07153a" if dark else "#f4f8ff"
-    tray_st = "#234a94" if dark else "#b2cbf0"
-    pill_c1 = ("#122e73", "#e2ecfc") if dark else ("#dbeafe", "#0c2459")
-    pill_c2 = ("#211d38", "#f2dfc0") if dark else ("#fef3c7", "#5c3b09")
-
-    for tx, title, chips, ic, ic_c, (c_bg, c_fg) in (
-        (34, sys["contextLabel"], sys["context"], "layers", T["accent"], pill_c1),
-        (448, sys["guardrailsLabel"], sys["guardrails"], "shield", T["gold"], pill_c2),
-    ):
+    cy = PAD + 44
+    w3 = (inner_w - 24) / 3
+    w2 = (inner_w - 12) / 2
+    certs = cr["certs"]
+    placements = [
+        (X + PAD, cy, w3, certs[0]),
+        (X + PAD + w3 + 12, cy, w3, certs[1]),
+        (X + PAD + (w3 + 12) * 2, cy, w3, certs[2]),
+        (X + PAD, cy + cert_h + 12, w2, certs[3]),
+        (X + PAD + w2 + 12, cy + cert_h + 12, w2, certs[4]),
+    ]
+    for cx, ccy, cw, cert in placements:
         cv.add(
-            rrect(X + tx, 404, 398, 120, 18, tray_bg, f' fill-opacity="{0.88 if dark else 0.96}" stroke="{tray_st}" stroke-width="1.2"'),
-            icon(ICON[ic], X + tx + 16, 420, 16, ic_c),
-            cv.text_box(X + tx + 40, 418, title, sans(800), 14, T["ink"], 20),
+            rrect(cx, ccy, cw, cert_h, 16, T["plate"], f' fill-opacity="{0.66 if dark else 0.88}" stroke="{T["plate_stroke"]}" stroke-opacity="0.62" stroke-width="1.2"'),
         )
-        items = [(20 + tw(c, sans(700), 12), c) for c in chips]
-        placed, _ = flow(items, 366, 6, 7, 27)
-        for qx, qy, c, _w in placed:
-            e, _ = pill(cv, X + tx + 16 + qx, 450 + qy + 13.5, c, sans(700), 12, 27, 10, c_bg, c_fg)
-            cv.add(*e)
+        uri = encode_badge_png(cert["image"], 92)
+        b_size = 52
+        bx, by = cx + 14, ccy + (cert_h - b_size) / 2
+        cv.add(
+            rrect(bx - 2, by - 2, b_size + 4, b_size + 4, 12, "#ffffff", f' stroke="{T["plate_stroke"]}" stroke-opacity="0.4"'),
+            f'<image x="{n(bx)}" y="{n(by)}" width="{b_size}" height="{b_size}" href="{uri}" preserveAspectRatio="xMidYMid meet"/>',
+        )
+        tx = bx + b_size + 12
+        tw_avail = cw - (b_size + 36)
+        tl = wrap(cert["title"], sans(700), 13, tw_avail)
+        cv.add(*cv.lines(tx, ccy + 16, tl, sans(700), 13, T["ink"], 17))
+        iy = ccy + 16 + 17 * len(tl) + 3
+        cv.add(
+            cv.text_box(tx, iy, cert["issuer"], sans(500), 11.2, T["muted"], 15),
+            cv.text_box(tx, iy + 15, cert["tag"], mono(600), 10, T["accent"], 14),
+        )
 
+    note_w = tw(cr["credlyNote"], mono(600), 11) + 28
+    note_x = X + (CONTENT_W - note_w) / 2
+    note_y = cy + cert_h * 2 + 12 + 14
+    cv.add(
+        rrect(note_x, note_y, note_w, 26, 13, T["plate"], f' fill-opacity="{0.74 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1"'),
+        cv.text_box(X + CONTENT_W / 2, note_y + 5, cr["credlyNote"], mono(600), 11, T["ink"] if not dark else T["muted"], 16, "middle"),
+    )
     return cv
 
 
@@ -1773,193 +1481,6 @@ def build_stack(theme_key):
     return cv
 
 
-def build_credentials(theme_key):
-    T = THEMES[theme_key]
-    dark = theme_key == "dark"
-    cr = P["credentials"]
-    X, PAD = MARGIN, 22
-    inner_w = CONTENT_W - 2 * PAD
-    col_w = (inner_w - 14) / 2
-
-    edu_h = 160
-    cert_h = 98
-    H = PAD + 40 + edu_h + 16 + 38 + cert_h * 2 + 12 + 40 + PAD
-    cv = Canvas(CONTENT_W + 2 * MARGIN, H + MARGIN, credentials_alt())
-    cv.add(*oil_box(cv, X, 0, CONTENT_W, H, 28, theme_key, seed=111))
-
-    # Top header inside crisp frosted gallery strip
-    cv.add(
-        rrect(X + PAD, PAD - 3, inner_w, 34, 13, T["plate"], f' fill-opacity="{0.72 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.1"'),
-        icon(ICON["grad"], X + PAD + 14, PAD + 5, 18, T["accent"]),
-        cv.text_box(X + PAD + 38, PAD + 4, "Academic Formation · STUCOM Pelai", sans(800), 14, T["ink"], 20),
-    )
-    aw = tw(cr["aside"], HAND, 23)
-    right = X + CONTENT_W - PAD - 14
-    cv.add(
-        f'<g transform="rotate(-1.8 {n(right - aw / 2)} {PAD + 14})">'
-        + cv.text_box(right, PAD + 1, cr["aside"], HAND, 23, T["hand"], 26, "end")
-        + "</g>"
-    )
-
-    # 2 Education oil plaques with STUCOM school logo inside top-right
-    ey = PAD + 40
-    for i, ed in enumerate(cr["education"]):
-        ex = X + PAD + i * (col_w + 14)
-        cv.add(
-            rrect(ex, ey, col_w, edu_h, 18, T["plate"], f' fill-opacity="{0.64 if dark else 0.86}" stroke="{T["plate_stroke"]}" stroke-opacity="0.62" stroke-width="1.2"'),
-        )
-        e, _ = pill(cv, ex + 16, ey + 24, ed["badge"], mono(700), 9.8, 22, 9, "#143885" if dark else "#dbeafe", "#f6f1ea" if dark else "#1e3a8a")
-        cv.add(*e)
-        # Authentic vector STUCOM Pelai logo in top-right of each degree card
-        st_svg, st_w = stucom_svg(0, 0, 27, theme_key)
-        st_x = ex + col_w - 16 - st_w
-        st_g, _ = stucom_svg(st_x, ey + 11, 27, theme_key)
-        cv.add(st_g)
-
-        t_lines = wrap(ed["title"], sans(700), 14.8, col_w - 32)
-        cv.add(*cv.lines(ex + 16, ey + 48, t_lines, sans(700), 14.8, T["ink"], 19.5))
-        d_top = ey + 48 + 19.5 * len(t_lines) + 4
-        cv.add(cv.text_box(ex + 16, d_top, f'{ed["school"]} · {ed["dates"]}', mono(600), 10.5, T["accent"], 15))
-        det_lines = wrap(ed["detail"], sans(400), 12.2, col_w - 32)
-        cv.add(*cv.lines(ex + 16, d_top + 18, det_lines, sans(400), 12.2, T["body"], 16.5))
-
-    # Credly section header strip
-    cy_hdr = ey + edu_h + 16
-    hdr2_w = 398
-    cv.add(
-        rrect(X + PAD, cy_hdr, hdr2_w, 30, 12, T["plate"], f' fill-opacity="{0.72 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.1"'),
-        icon(ICON["award"], X + PAD + 12, cy_hdr + 6, 17, T["gold"]),
-        cv.text_box(X + PAD + 34, cy_hdr + 5, "Verified Certifications · Cisco & IBM (Credly)", sans(800), 14, T["ink"], 20),
-    )
-
-    cy = cy_hdr + 38
-    w3 = (inner_w - 24) / 3
-    w2 = (inner_w - 12) / 2
-    certs = cr["certs"]
-    placements = [
-        (X + PAD, cy, w3, certs[0]),
-        (X + PAD + w3 + 12, cy, w3, certs[1]),
-        (X + PAD + (w3 + 12) * 2, cy, w3, certs[2]),
-        (X + PAD, cy + cert_h + 12, w2, certs[3]),
-        (X + PAD + w2 + 12, cy + cert_h + 12, w2, certs[4]),
-    ]
-    for cx, ccy, cw, cert in placements:
-        cv.add(
-            rrect(cx, ccy, cw, cert_h, 16, T["plate"], f' fill-opacity="{0.66 if dark else 0.88}" stroke="{T["plate_stroke"]}" stroke-opacity="0.62" stroke-width="1.2"'),
-        )
-        uri = encode_badge_png(cert["image"], 92)
-        b_size = 52
-        bx, by = cx + 14, ccy + (cert_h - b_size) / 2
-        cv.add(
-            rrect(bx - 2, by - 2, b_size + 4, b_size + 4, 12, "#ffffff", f' stroke="{T["plate_stroke"]}" stroke-opacity="0.4"'),
-            f'<image x="{n(bx)}" y="{n(by)}" width="{b_size}" height="{b_size}" href="{uri}" preserveAspectRatio="xMidYMid meet"/>',
-        )
-        tx = bx + b_size + 12
-        tw_avail = cw - (b_size + 36)
-        tl = wrap(cert["title"], sans(700), 13, tw_avail)
-        cv.add(*cv.lines(tx, ccy + 16, tl, sans(700), 13, T["ink"], 17))
-        iy = ccy + 16 + 17 * len(tl) + 3
-        cv.add(
-            cv.text_box(tx, iy, cert["issuer"], sans(500), 11.2, T["muted"], 15),
-            cv.text_box(tx, iy + 15, cert["tag"], mono(600), 10, T["accent"], 14),
-        )
-
-    note_w = tw(cr["credlyNote"], mono(600), 11) + 28
-    note_x = X + (CONTENT_W - note_w) / 2
-    note_y = cy + cert_h * 2 + 16
-    cv.add(
-        rrect(note_x, note_y, note_w, 26, 13, T["plate"], f' fill-opacity="{0.74 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1"'),
-        cv.text_box(X + CONTENT_W / 2, note_y + 5, cr["credlyNote"], mono(600), 11, T["ink"] if not dark else T["muted"], 16, "middle"),
-    )
-    return cv
-
-
-def build_about(theme_key):
-    T = THEMES[theme_key]
-    dark = theme_key == "dark"
-    ab = P["about"]
-    X, PAD = MARGIN, 24
-    inner_w = CONTENT_W - 2 * PAD
-    port_w = 152
-    text_w = inner_w - port_w - 42
-
-    hl_lines = wrap(ab["headline"], DISPLAY, 24, text_w, -0.5)
-    p_blocks = [wrap(p, sans(400), 14.2, text_w) for p in ab["paragraphs"]]
-
-    text_bio_h = 46 + 29 * len(hl_lines) + 10 + sum(20.5 * len(bl) + 9 for bl in p_blocks) + 12
-    bio_h = max(224, text_bio_h)
-    # About Services height bump (+10 for label strip spacing)
-    ficha_h = 92
-    srv_h = 114
-    H = PAD + bio_h + 14 + ficha_h + 14 + 36 + srv_h + PAD
-    cv = Canvas(CONTENT_W + 2 * MARGIN, H + MARGIN, about_alt())
-    cv.add(*oil_box(cv, X, 0, CONTENT_W, H, 28, theme_key, seed=131))
-
-    # Bio glazed plate
-    cv.add(
-        rrect(
-            X + PAD, PAD, inner_w, bio_h, 20,
-            T["plate"], f' fill-opacity="{0.62 if dark else 0.85}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.2"'
-        )
-    )
-    aw = tw(ab["aside"], HAND, 24)
-    cv.add(
-        f'<g transform="rotate(-1.5 {n(X + PAD + 20 + aw / 2)} {PAD + 28})">'
-        + cv.text_box(X + PAD + 20, PAD + 14, ab["aside"], HAND, 24, T["hand"], 26)
-        + "</g>"
-    )
-    by = PAD + 46
-    cv.add(*cv.lines(X + PAD + 20, by, hl_lines, DISPLAY, 24, T["ink"], 29, ls=-0.5))
-    by += 29 * len(hl_lines) + 10
-    for bl in p_blocks:
-        cv.add(*cv.lines(X + PAD + 20, by, bl, sans(400), 14.2, T["body"], 20.5))
-        by += 20.5 * len(bl) + 9
-
-    # Oil-painted Portrait Miniature Frame holding ignacio_idle.svg on right of Bio plate
-    pf_x = X + PAD + inner_w - port_w - 16
-    pf_y = PAD + 14
-    pf_h = bio_h - 28
-    cv.add(*oil_box(cv, pf_x, pf_y, port_w, pf_h, 18, theme_key, seed=412, preset="mini", frame=True))
-    pf_clip = cv.clip_rrect(pf_x + 3, pf_y + 3, port_w - 6, pf_h - 6, 15)
-    idle_h = pf_h - 14
-    idle_w = idle_h * (277.0 / 393.0)
-    idle_g, _ = embed_sprite(cv, "ignacio_idle", pf_x + (port_w - idle_w) / 2, pf_y + pf_h - idle_h, idle_h, clip_attr=pf_clip)
-    cv.add(idle_g)
-
-    # 3 Info Fichas row
-    fy = PAD + bio_h + 14
-    w3 = (inner_w - 24) / 3
-    for i, fc in enumerate(ab["facts"]):
-        fx = X + PAD + i * (w3 + 12)
-        cv.add(
-            rrect(fx, fy, w3, ficha_h, 16, T["plate"], f' fill-opacity="{0.64 if dark else 0.86}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1.2"'),
-            cv.text_box(fx + 16, fy + 16, fc["kicker"], mono(700), 10.5, T["accent"], 14, ls=0.8),
-            cv.text_box(fx + 16, fy + 34, fc["value"], sans(700), 15, T["ink"], 22),
-            cv.text_box(fx + 16, fy + 60, fc["sub"], sans(400), 12.2, T["muted"], 18),
-        )
-
-    # Services row with crisp frosted label bar
-    sy_hdr = fy + ficha_h + 14
-    srv_lbl_w = tw(ab["servicesLabel"], sans(800), 13.5) + 28
-    cv.add(
-        rrect(X + PAD, sy_hdr, srv_lbl_w, 28, 12, T["plate"], f' fill-opacity="{0.72 if dark else 0.90}" stroke="{T["plate_stroke"]}" stroke-opacity="0.58" stroke-width="1"'),
-        cv.text_box(X + PAD + 14, sy_hdr + 4, ab["servicesLabel"], sans(800), 13.5, T["ink"], 20),
-    )
-    sy = sy_hdr + 36
-    for i, sv in enumerate(ab["services"]):
-        sx = X + PAD + i * (w3 + 12)
-        cv.add(
-            rrect(sx, sy, w3, srv_h, 18, T["plate"], f' fill-opacity="{0.64 if dark else 0.86}" stroke="{T["plate_stroke"]}" stroke-opacity="0.6" stroke-width="1.2"'),
-            rrect(sx + 16, sy + 16, 28, 22, 7, "#143c8c" if dark else "#dbeafe"),
-            cv.text(sx + 30, m(mono(700)).baseline(sy + 16, 22, 10.5), sv["num"], mono(700), 10.5, "#f6f1ea" if dark else "#1e3a8a", "middle"),
-            cv.text_box(sx + 52, sy + 16, sv["title"], sans(700), 14.5, T["ink"], 22),
-        )
-        sl = wrap(sv["text"], sans(400), 12.5, w3 - 32)
-        cv.add(*cv.lines(sx + 16, sy + 46, sl, sans(400), 12.5, T["body"], 17.5))
-
-    return cv
-
-
 def build_contact(theme_key):
     T = THEMES[theme_key]
     dark = theme_key == "dark"
@@ -2051,42 +1572,23 @@ def hero_alt():
     return f"{h['name']} — {h['lead']} {' · '.join(h['chips'])}."
 
 
-def experience_alt():
-    parts = [f"Experience — {P['experience']['title']}."]
-    for r in P["experience"]["roles"]:
-        st = f"{r['stoamText']} " if "stoamText" in r else ""
-        parts.append(f"{r['role']} at {r['company']} ({r['dates']} · {r['place']}): {st}" + " ".join(r["bullets"]))
-    return " ".join(parts)
-
-
 def project_alt(p):
     return f"{p['name']} ({p['kicker']}) — {p['big']}: {p['sub']}. {p['text']} Stack: {', '.join(p['tags'])}."
 
 
-def classroom_alt():
-    cl = P["work"]["classroom"]
+def more_work_alt():
+    cl = P["work"]["more"]
     items = "; ".join(f"{it['name']} ({it['badge']}): {it['text']}" for it in cl["items"])
     return f"{cl['label']} — {items}. {cl['footnote']}."
 
 
-def systems_alt():
-    s = P["systems"]
-    return f"Systems & AI — {s['headline']} {s['lead']}"
+def certifications_alt():
+    ct = ", ".join(c["title"] for c in P["certifications"]["certs"])
+    return f"Verified Certifications — {ct}."
 
 
 def stack_alt():
     return "Tech Stack — " + "; ".join(f"{g['name']}: {', '.join(k['label'] for k in g['keys'])}" for g in P["stack"]["groups"])
-
-
-def credentials_alt():
-    ed = "; ".join(f"{e['title']} ({e['school']}, {e['dates']})" for e in P["credentials"]["education"])
-    ct = ", ".join(c["title"] for c in P["credentials"]["certs"])
-    return f"Education & Certifications — {ed}. Verified Credly badges: {ct}."
-
-
-def about_alt():
-    a = P["about"]
-    return f"About Ignacio Breñas Muñoz — {a['headline']} " + " ".join(a["paragraphs"])
 
 
 def contact_alt():
@@ -2109,6 +1611,16 @@ def dual_img(name, alt_text, width="100%", extra=""):
     )
 
 
+def cool_card(card_name, alt_text):
+    base = "https://raw.githubusercontent.com/Ignaciobrenas/ignaciobrenas/cards"
+    return (
+        f'<picture>\n'
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{base}/{card_name}-dark.svg">\n'
+        f'  <img src="{base}/{card_name}-light.svg" width="400" alt="{attr(alt_text)}">\n'
+        f'</picture>'
+    )
+
+
 def work_md():
     cards = []
     for p in P["work"]["items"]:
@@ -2117,9 +1629,11 @@ def work_md():
         cards.append(f'<a href="{p["url"]}">\n{img}\n</a>')
     rows = [cards[i:i + 2] for i in range(0, len(cards), 2)]
     body = '<p align="center">\n' + "\n<br>\n".join("\n".join(r) for r in rows) + "\n</p>\n"
-    body += f'\n{dual_img("work-classroom", classroom_alt())}\n'
+    body += f'\n{dual_img("work-more", more_work_alt())}\n'
+    more = P["work"]["more"]
+    link_items = more["items"] + more.get("extraLinks", [])
     cl_links = " &nbsp;·&nbsp; ".join(
-        f'<a href="{it["url"]}"><b>{it["name"]} ↗</b></a>' for it in P["work"]["classroom"]["items"]
+        f'<a href="{it["url"]}"><b>{it["name"]} ↗</b></a>' for it in link_items
     )
     body += (
         f'\n<p align="center">\n'
@@ -2130,53 +1644,16 @@ def work_md():
 
 
 def activity_md():
-    user = "Ignaciobrenas"
-    return f"""<div align="center">
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username={user}&color=1d4ed8&style=flat&label=Profile+Views" alt="Profile Views"/>
-</p>
-
-<p align="center">
-  <a href="{LINKS['github']}">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username={user}&show_icons=true&include_all_commits=true&count_private=true&bg_color=040c24&title_color=60a5fa&text_color=ebe4db&icon_color=3b82f6&border_color=1e3a8a&border_radius=18&disable_animations=true&rank_icon=github">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username={user}&show_icons=true&include_all_commits=true&count_private=true&bg_color=f4f7fc&title_color=1d4ed8&text_color=06102f&icon_color=2563eb&border_color=bfdbfe&border_radius=18&disable_animations=true&rank_icon=github">
-      <img height="182em" src="https://github-readme-stats-fast.vercel.app/api?username={user}&show_icons=true&include_all_commits=true&count_private=true&bg_color=040c24&title_color=60a5fa&text_color=ebe4db&icon_color=3b82f6&border_color=1e3a8a&border_radius=18&disable_animations=true&rank_icon=github" alt="GitHub Stats" />
-    </picture>
-  </a>
-  &nbsp;
-  <a href="{LINKS['github']}">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={user}&layout=compact&langs_count=8&bg_color=040c24&title_color=60a5fa&text_color=ebe4db&border_color=1e3a8a&border_radius=18&disable_animations=true">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={user}&layout=compact&langs_count=8&bg_color=f4f7fc&title_color=1d4ed8&text_color=06102f&border_color=bfdbfe&border_radius=18&disable_animations=true">
-      <img height="182em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username={user}&layout=compact&langs_count=8&bg_color=040c24&title_color=60a5fa&text_color=ebe4db&border_color=1e3a8a&border_radius=18&disable_animations=true" alt="Top Languages" />
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <a href="{LINKS['github']}">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user={user}&background=040c24&ring=3b82f6&fire=e2bd79&currStreakLabel=60a5fa&sideNums=93c5fd&currStreakNum=ebe4db&dates=8aa5d4&sideLabels=60a5fa&border=1e3a8a&border_radius=18&disable_animations=true&mode=weekly">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user={user}&background=f4f7fc&ring=1d4ed8&fire=c89b54&currStreakLabel=1d4ed8&sideNums=1e40af&currStreakNum=06102f&dates=4b6496&sideLabels=1d4ed8&border=bfdbfe&border_radius=18&disable_animations=true&mode=weekly">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user={user}&background=040c24&ring=3b82f6&fire=e2bd79&currStreakLabel=60a5fa&sideNums=93c5fd&currStreakNum=ebe4db&dates=8aa5d4&sideLabels=60a5fa&border=1e3a8a&border_radius=18&disable_animations=true&mode=weekly" alt="GitHub Streak" />
-    </picture>
-  </a>
-</p>
-
-<p align="center">
-  <a href="{LINKS['github']}">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username={user}&bg_color=040c24&color=60a5fa&line=3b82f6&point=e2bd79&area=true&area_color=0c2459&hide_border=false&border_color=1e3a8a&title_color=ebe4db&radius=18&custom_title=GitHub%20Contribution%20Activity">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username={user}&bg_color=f4f7fc&color=1d4ed8&line=2563eb&point=c89b54&area=true&area_color=dbeafe&hide_border=false&border_color=bfdbfe&title_color=06102f&radius=18&custom_title=GitHub%20Contribution%20Activity">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username={user}&bg_color=040c24&color=60a5fa&line=3b82f6&point=e2bd79&area=true&area_color=0c2459&hide_border=false&border_color=1e3a8a&title_color=ebe4db&radius=18&custom_title=GitHub%20Contribution%20Activity" alt="Contribution Graph" width="100%" />
-    </picture>
-  </a>
-</p>
-
-</div>
-"""
+    return (
+        '<p align="center">\n'
+        + cool_card("summary", "GitHub Summary Stats") + "\n"
+        + cool_card("about", "Developer Profile") + "\n"
+        + '</p>\n'
+        + '<p align="center">\n'
+        + cool_card("weekly", "Weekly Coding Rhythm") + "\n"
+        + cool_card("languages", "Most Used Languages") + "\n"
+        + '</p>\n'
+    )
 
 
 def build_readme():
@@ -2185,27 +1662,18 @@ def build_readme():
         f'<a href="{LINKS["portfolio"]}">\n{dual_img("hero", hero_alt())}\n</a>\n',
         (
             '<p align="center">\n'
-            f'  <a href="{LINKS["portfolio"]}"><b>Portfolio</b></a>\n'
-            '  &nbsp;&nbsp;·&nbsp;&nbsp;\n'
-            f'  <a href="{LINKS["github"]}"><b>GitHub</b></a>\n'
-            '  &nbsp;&nbsp;·&nbsp;&nbsp;\n'
-            f'  <a href="{LINKS["linkedin"]}"><b>LinkedIn</b></a>\n'
-            '  &nbsp;&nbsp;·&nbsp;&nbsp;\n'
-            f'  <a href="{LINKS["credly"]}"><b>Credly</b></a>\n'
-            '  &nbsp;&nbsp;·&nbsp;&nbsp;\n'
-            f'  <a href="mailto:{LINKS["email"]}"><b>{LINKS["email"]}</b></a>\n'
-            '  &nbsp;&nbsp;·&nbsp;&nbsp;\n'
-            f'  <a href="{LINKS["cv"]}"><b>Resume / CV</b></a>\n'
+            f'  <a href="{LINKS["portfolio"]}"><img src="https://img.shields.io/badge/Portfolio-0a215c?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>\n'
+            f'  <a href="{LINKS["linkedin"]}"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>\n'
+            f'  <a href="{LINKS["cv"]}"><img src="https://img.shields.io/badge/Resume%20%2F%20CV-1d4ed8?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume / CV"/></a>\n'
+            f'  <a href="{LINKS["credly"]}"><img src="https://img.shields.io/badge/Credly-06143a?style=for-the-badge&logo=credly&logoColor=e2bd79" alt="Credly"/></a>\n'
+            f'  <a href="mailto:{LINKS["email"]}"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=60a5fa" alt="Email"/></a>\n'
             '</p>\n'
         ),
     ]
     bodies = {
-        "experience": lambda: dual_img("experience", experience_alt()) + "\n",
         "work": work_md,
-        "systems": lambda: dual_img("systems", systems_alt()) + "\n",
         "stack": lambda: dual_img("stack", stack_alt()) + "\n",
-        "credentials": lambda: f'<a href="{LINKS["credly"]}">\n{dual_img("credentials", credentials_alt())}\n</a>\n',
-        "about": lambda: dual_img("about", about_alt()) + "\n",
+        "certifications": lambda: f'<a href="{LINKS["credly"]}">\n{dual_img("certifications", certifications_alt())}\n</a>\n',
         "activity": activity_md,
         "contact": lambda: f'<a href="mailto:{LINKS["email"]}">\n{dual_img("contact", contact_alt())}\n</a>\n',
     }
@@ -2217,9 +1685,9 @@ def build_readme():
 
     out.append(
         '<p align="center">\n'
-        '  <sub>Oil-canvas dual-theme profile cards generated by '
-        '<a href="assets/gen_cards.py"><code>assets/gen_cards.py</code></a> '
-        'from <a href="assets/profile.json"><code>assets/profile.json</code></a> · '
+        '  <sub>Barcelona, Spain (On-site · Hybrid · Remote) · ES / CAT / EN · '
+        'Generated by <a href="assets/gen_cards.py"><code>assets/gen_cards.py</code></a> '
+        '&amp; <a href="cool-readme.yml"><code>github-cool-readme</code></a> · '
         f'<a href="{LINKS["portfolio"]}">ignaciobrenas.vercel.app</a></sub>\n'
         '</p>\n'
     )
@@ -2237,15 +1705,12 @@ def main():
                 f"section-{sec['key']}-{mode}.svg",
                 lambda s=sec, m=mode: build_section(s["num"], s["title"], s["note"], m),
             ))
-        jobs.append((f"experience-{mode}.svg", lambda m=mode: build_experience(m)))
         for p in P["work"]["items"]:
             slug = re.sub(r"(?<!^)([A-Z])", r"-\1", p["key"]).lower()
             jobs.append((f"work-{slug}-{mode}.svg", lambda proj=p, m=mode: build_project(proj, m)))
-        jobs.append((f"work-classroom-{mode}.svg", lambda m=mode: build_classroom(m)))
-        jobs.append((f"systems-{mode}.svg", lambda m=mode: build_systems(m)))
+        jobs.append((f"work-more-{mode}.svg", lambda m=mode: build_more_work(m)))
         jobs.append((f"stack-{mode}.svg", lambda m=mode: build_stack(m)))
-        jobs.append((f"credentials-{mode}.svg", lambda m=mode: build_credentials(m)))
-        jobs.append((f"about-{mode}.svg", lambda m=mode: build_about(m)))
+        jobs.append((f"certifications-{mode}.svg", lambda m=mode: build_certifications(m)))
         jobs.append((f"contact-{mode}.svg", lambda m=mode: build_contact(m)))
 
     made = set()

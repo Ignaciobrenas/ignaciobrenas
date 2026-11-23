@@ -1,0 +1,23 @@
+# Settings: https://github.com/pedrocatalao/github-cool-readme#settings
+user: Ignaciobrenas
+show: [summary, about, weekly, languages]
+count:
+  private: true
+  orgs: true
+look:
+  style: dotmatrix
+  color: github
+  animations: true
+  background: none
+cards:
+  languages:
+    title: class Languages
+  about:
+    title: class Developer
+    headline: "Hi, *Ignacio*!"
+    lines:
+      - "Software & Automation Dev @ *Soterguard*"
+      - "Open to *job offers* to keep adding value"
+    facts:
+      Stack: "TypeScript · Python · Node · Docker"
+      Mode: "Barcelona · Hybrid / Remote"

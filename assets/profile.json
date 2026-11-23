@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "source": "https://ignaciobrenas.vercel.app",
   "links": {
     "portfolio": "https://ignaciobrenas.vercel.app",
@@ -13,151 +13,51 @@
   "hero": {
     "hello": "hola, soy",
     "name": "Ignacio Breñas Muñoz",
-    "lead": "Software Developer & DAW Student in Barcelona. Building Stoam Connect (B2B, B2C, CRMs & ERPs), strict TypeScript backends, AI & data pipelines, On-Premise systems & Docker / Linux infrastructure.",
+    "lead": "Software & Automation Developer crafting strict TypeScript systems, scalable APIs, AI & data pipelines, and containerized infrastructure ready for production.",
     "chips": [
-      "Software Developer Intern · Soterguard",
-      "DAW · SMR (9.18) · STUCOM Pelai",
-      "Barcelona · Open to Work"
+      "Software & Automation Developer · Soterguard",
+      "Full-Stack · Automation · AI & Data",
+      "Open to Job Offers · Ready to Add Value"
     ],
     "stickers": {
       "bubble": "¡hola!",
-      "pillTop": "116+ tests · TS strict",
-      "pillBot": "Stoam · B2B/B2C · n8n",
+      "pillTop": "TS Strict · Tested",
+      "pillBot": "APIs · AI · Docker",
       "note": "oil on canvas · IB"
     }
   },
   "sections": [
     {
-      "key": "experience",
-      "num": "01",
-      "title": "Experience",
-      "note": "production, hardware & labs"
-    },
-    {
       "key": "work",
-      "num": "02",
+      "num": "01",
       "title": "Selected work",
-      "note": "4 featured + class builds"
-    },
-    {
-      "key": "systems",
-      "num": "03",
-      "title": "Systems & AI",
-      "note": "how I engineer reliability"
+      "note": "shipped code · 4 flagship + more"
     },
     {
       "key": "stack",
-      "num": "04",
+      "num": "02",
       "title": "Tech stack",
       "note": "daily · shipped · exploring"
     },
     {
-      "key": "credentials",
-      "num": "05",
-      "title": "Credentials & edu",
-      "note": "Credly · STUCOM Pelai"
-    },
-    {
-      "key": "about",
-      "num": "06",
-      "title": "About & services",
-      "note": "the honest version"
+      "key": "certifications",
+      "num": "03",
+      "title": "Certifications",
+      "note": "verified · Credly · Cisco & IBM"
     },
     {
       "key": "activity",
-      "num": "07",
+      "num": "04",
       "title": "GitHub activity",
-      "note": "live telemetry"
+      "note": "live dot-matrix telemetry"
     },
     {
       "key": "contact",
-      "num": "08",
-      "title": "Say hi",
-      "note": "Barcelona · open to work"
+      "num": "05",
+      "title": "Let's talk",
+      "note": "open to job offers · adding value"
     }
   ],
-  "experience": {
-    "label": "CAREER ARC · 2023 → 2026",
-    "title": "From hardware labs to prod",
-    "aside": "always shipping!",
-    "today": "Today",
-    "milestones": ["2023", "2024", "2025", "2026"],
-    "roles": [
-      {
-        "key": "soterguard",
-        "line": "S",
-        "lineName": "Soterguard · Stoam",
-        "start": 2.65,
-        "end": 3.0,
-        "lane": 0,
-        "role": "Software Developer Intern",
-        "company": "Soterguard · Stoam SaaS & On-Premise Systems",
-        "dates": "May 2026 → Present",
-        "place": "Barcelona · Hybrid",
-        "stoamTitle": "Stoam Connect Participation · Integration Engine",
-        "stoamText": "Stoam Connect connects B2B & B2C platforms, CRMs and ERPs (Sage, A3ERP, Odoo) via REST APIs, webhooks & n8n.",
-        "bullets": [
-          "Developing, maintaining & deploying web applications and On-Premise client solutions under Agile/Kanban workflows.",
-          "Designing server logic & APIs in Node.js, strict TypeScript & Python with relational PostgreSQL (PrismaORM).",
-          "Configuring virtualized & production environments in Docker & WSL while resolving client incidents."
-        ],
-        "tags": [
-          "TypeScript",
-          "Node.js",
-          "React",
-          "PostgreSQL",
-          "PrismaORM",
-          "n8n",
-          "Docker",
-          "WSL & Linux"
-        ]
-      },
-      {
-        "key": "vimtech",
-        "line": "V",
-        "lineName": "VimTech",
-        "start": 1.45,
-        "end": 2.05,
-        "lane": 1,
-        "role": "IT Hardware & Systems Intern",
-        "company": "VimTech · Servicio Técnico Informático",
-        "dates": "Sep 2024 → Mar 2025",
-        "place": "El Masnou, Barcelona",
-        "bullets": [
-          "Hardware diagnostics, repair & maintenance with specialization in Apple devices (Mac, iPhone, iPad).",
-          "OS installation, system auditing & personalized technical advisory across macOS, Windows & Linux."
-        ],
-        "tags": [
-          "Apple Hardware",
-          "macOS / Linux",
-          "Diagnostics",
-          "Local Networks"
-        ]
-      },
-      {
-        "key": "ajma",
-        "line": "A",
-        "lineName": "AJMA El Masnou",
-        "start": 0.0,
-        "end": 2.35,
-        "lane": 2,
-        "role": "IT Support & Web Developer (Volunteer)",
-        "company": "AJMA · Associació Juvenil de Mitjans Audiovisuals",
-        "dates": "Mar 2023 → Aug 2025",
-        "place": "El Masnou, Barcelona",
-        "bullets": [
-          "Designed, built & continuously maintained the association's official website (ajma.es) and Nginx web infrastructure.",
-          "IT equipment support and live audiovisual technical operation (camera & sound) at cultural events."
-        ],
-        "tags": [
-          "Web Dev",
-          "Nginx",
-          "Live Streaming",
-          "A/V Systems"
-        ]
-      }
-    ]
-  },
   "work": {
     "items": [
       {
@@ -201,9 +101,9 @@
         "url": "https://github.com/Ignaciobrenas/Virtual_Mouse"
       }
     ],
-    "classroom": {
-      "label": "CLASSROOM PROJECTS · STUCOM PELAI (DAW)",
-      "aside": "academic builds",
+    "more": {
+      "label": "MORE ENGINEERING BUILDS · FULL-STACK & DATA",
+      "aside": "more shipped code",
       "items": [
         {
           "name": "Nurse-Simulator",
@@ -215,7 +115,7 @@
         {
           "name": "Nurse-Simulator-Frontend",
           "badge": "FRONTEND · ANGULAR",
-          "text": "Interactive hospital care web client built with Angular & TypeScript integrating the Nurse Simulator REST API (MP06/MP16).",
+          "text": "Interactive hospital care web client built with Angular & TypeScript integrating the Nurse Simulator REST API.",
           "tags": ["ANGULAR", "TYPESCRIPT", "REST API"],
           "url": "https://github.com/Ignaciobrenas/Nurse-Simulator-Frontend"
         },
@@ -227,43 +127,55 @@
           "url": "https://github.com/Ignaciobrenas/RunAndEat"
         }
       ],
-      "footnote": "Also from STUCOM labs: Argus-Fraud-Radar (PySpark/LightGBM), IgnacioBank (Java), MP0613_RA3_POO_Bank & PHP/XML practices"
-    },
-    "moreNote": "Class & academic builds (Nurse-Simulator, Nurse-Simulator-Frontend, RunAndEat & 40+ repos)"
-  },
-  "systems": {
-    "aside": "how I build",
-    "headline": "Deterministic by design.",
-    "lead": "Strict client-server contracts, Stoam B2B/B2C & CRM/ERP sync pipelines, and containerized verification before hitting prod.",
-    "chain": {
-      "spec": "Spec & Schema",
-      "specSub": "TS strict · Zod · SQL",
-      "core": "Core & Stoam",
-      "coreSub": "B2B/B2C · CRM · ERP",
-      "parallel": "CONCURRENT PILLARS",
-      "agents": [
-        { "name": "ERP & Webhooks", "sub": "Sage · A3ERP · Odoo" },
-        { "name": "AI & Data Tools", "sub": "Python · Pandas · Power BI" },
-        { "name": "Quality Suites", "sub": "Vitest · Playwright" }
+      "extraLinks": [
+        {
+          "name": "Argus-Fraud-Radar",
+          "url": "https://github.com/Ignaciobrenas/Argus-Fraud-Radar"
+        },
+        {
+          "name": "AirPop",
+          "url": "https://github.com/Ignaciobrenas/AirPop"
+        }
       ],
-      "prod": "Prod",
-      "prodSub": "Docker · WSL · Linux",
-      "note": "strict core"
-    },
-    "contextLabel": "Protocols & Contracts",
-    "context": [
-      "REST & Webhooks",
-      "Prisma / Eloquent",
-      "CRM & ERP Sync",
-      "SQL Data Modeling"
+      "footnote": "Also built: Argus-Fraud-Radar (PySpark/LightGBM), AirPop (Rust/Tauri), IgnacioBank (Java) & 40+ repos"
+    }
+  },
+  "certifications": {
+    "header": "Verified Certifications · Cisco & IBM (Credly)",
+    "aside": "verified on Credly",
+    "certs": [
+      {
+        "title": "Cisco Data Science Essentials with Python",
+        "issuer": "Cisco Networking Academy",
+        "tag": "Python · Data Pipelines",
+        "image": "badges/Data Science Essentials With Python.png"
+      },
+      {
+        "title": "Cisco Ethical Hacker",
+        "issuer": "Cisco Networking Academy",
+        "tag": "Penetration Testing · Sec",
+        "image": "badges/cisco-ethical-hacker.png"
+      },
+      {
+        "title": "IBM Agile Explorer",
+        "issuer": "IBM SkillsBuild",
+        "tag": "Scrum · Kanban · Delivery",
+        "image": "badges/ibm-agile-explorer.png"
+      },
+      {
+        "title": "Cisco Introduction to Cybersecurity",
+        "issuer": "Cisco Networking Academy",
+        "tag": "Defense · Cryptography",
+        "image": "badges/cisco-cybersecurity.png"
+      },
+      {
+        "title": "Cisco Introduction to Data Science",
+        "issuer": "Cisco Networking Academy",
+        "tag": "Analytics · ML Modeling",
+        "image": "badges/cisco-data-science.png"
+      }
     ],
-    "guardrailsLabel": "Architecture & Guardrails",
-    "guardrails": [
-      "Zero 'any' TypeScript",
-      "116+ Automated Tests",
-      "OOP & Client-Server",
-      "On-Premise · Docker / WSL"
-    ]
+    "credlyNote": "Credly ID: ignacio-brenas-munoz · Click card to verify live credentials"
   },
   "stack": {
     "aside": "the keys I ship with",
@@ -327,7 +239,7 @@
           { "label": "Git", "level": "daily" },
           { "label": "WSL / Linux", "level": "daily" },
           { "label": "GitHub", "level": "daily" },
-          { "label": "POO", "level": "used" },
+          { "label": "OOP", "level": "used" },
           { "label": "On-Premise", "level": "used" },
           { "label": "Nginx", "level": "used" },
           { "label": "Vitest", "level": "used" },
@@ -337,105 +249,10 @@
       }
     ]
   },
-  "credentials": {
-    "aside": "verified & academic",
-    "education": [
-      {
-        "badge": "CFGS · HIGHER",
-        "title": "Web Application Development (DAW)",
-        "school": "STUCOM Pelai, BCN",
-        "dates": "2025 – 2027 (In Progress)",
-        "detail": "Client-server OOP, Symfony/React, relational DBs, security & UNITA Erasmus+ BIP."
-      },
-      {
-        "badge": "CFGM · VOCATIONAL",
-        "title": "Microcomputer Systems & Networks (SMR)",
-        "school": "STUCOM Pelai, BCN",
-        "dates": "2023 – 2025 · GPA 9.18/10",
-        "detail": "Linux & Windows administration, local networks, hardware diagnostics & security."
-      }
-    ],
-    "certs": [
-      {
-        "title": "Cisco Data Science Essentials with Python",
-        "issuer": "Cisco Networking Academy",
-        "tag": "Python · Data Pipelines",
-        "image": "badges/Data Science Essentials With Python.png"
-      },
-      {
-        "title": "Cisco Ethical Hacker",
-        "issuer": "Cisco Networking Academy",
-        "tag": "Penetration Testing · Sec",
-        "image": "badges/cisco-ethical-hacker.png"
-      },
-      {
-        "title": "IBM Agile Explorer",
-        "issuer": "IBM SkillsBuild",
-        "tag": "Scrum · Kanban · Delivery",
-        "image": "badges/ibm-agile-explorer.png"
-      },
-      {
-        "title": "Cisco Introduction to Cybersecurity",
-        "issuer": "Cisco Networking Academy",
-        "tag": "Defense · Cryptography",
-        "image": "badges/cisco-cybersecurity.png"
-      },
-      {
-        "title": "Cisco Introduction to Data Science",
-        "issuer": "Cisco Networking Academy",
-        "tag": "Analytics · ML Modeling",
-        "image": "badges/cisco-data-science.png"
-      }
-    ],
-    "credlyNote": "Credly ID: ignacio-brenas-munoz · Click card to verify live credentials"
-  },
-  "about": {
-    "aside": "proactive · adaptable · BCN",
-    "headline": "Proactive Software Developer holding up in production.",
-    "paragraphs": [
-      "Software Developer & DAW student in Barcelona with a versatile foundation across web engineering, client-server OOP architecture, AI & data analysis (Pandas, Power BI), and virtualized Docker/WSL/Linux deployments.",
-      "At Soterguard I participate in Stoam Connect — connecting B2B & B2C platforms with CRMs and ERPs — alongside On-Premise client systems, building on my SMR degree (9.18/10) at STUCOM Pelai."
-    ],
-    "facts": [
-      {
-        "kicker": "LOCATION",
-        "value": "Barcelona, Spain",
-        "sub": "On-site · Hybrid · Remote"
-      },
-      {
-        "kicker": "LANGUAGES",
-        "value": "ES · CAT · EN (Tech)",
-        "sub": "Native ES/CAT · Technical EN"
-      },
-      {
-        "kicker": "SOFT SKILLS",
-        "value": "Proactive · Problem Solver",
-        "sub": "Leadership · Organization · Team"
-      }
-    ],
-    "servicesLabel": "What I can build for your team",
-    "services": [
-      {
-        "num": "01",
-        "title": "Web, APIs & Stoam",
-        "text": "Strict TypeScript, Node.js, PostgreSQL (Prisma) & B2B/B2C CRM/ERP integrations."
-      },
-      {
-        "num": "02",
-        "title": "AI & Data Pipelines",
-        "text": "Applied AI models for data processing, Pandas analytics pipelines & Power BI dashboards."
-      },
-      {
-        "num": "03",
-        "title": "On-Premise & QA",
-        "text": "Docker, WSL & Linux virtualized deployments plus automated test suites before merge."
-      }
-    ]
-  },
   "contact": {
-    "aside": "direct connection",
+    "aside": "open to offers",
     "title": "Let's talk.",
-    "text": "Barcelona — open to Software Developer roles, product teams, and B2B/B2C, CRM/ERP or AI integration projects.",
+    "text": "Currently Software & Automation Developer at Soterguard — open to job offers to keep building impact and adding value.",
     "replyLabel": "USUALLY REPLIES IN",
     "reply": "< 24h",
     "stampCorner": "BCN · 26",
